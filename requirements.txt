@@ -22,7 +22,7 @@ dill @ file:///home/conda/feedstock_root/build_artifacts/dill_1690101045195/work
 docker-pycreds @ file:///Users/ktietz/demo/mc3/conda-bld/docker-pycreds_1630654474270/work
 eval_type_backport @ file:///home/conda/feedstock_root/build_artifacts/eval_type_backport_1734857727836/work
 filelock @ file:///croot/filelock_1744281381737/work
-fonttools==4.58.4
+fonttools==4.60.2
 frozenlist @ file:///croot/frozenlist_1730902802621/work
 fsspec @ file:///croot/fsspec_1747117721425/work
 gitdb @ file:///tmp/build/80754af9/gitdb_1617117951232/work
