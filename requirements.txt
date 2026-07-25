@@ -46,7 +46,7 @@ multidict @ file:///croot/multidict_1730905498140/work
 multiprocess @ file:///work/perseverance-python-buildout/croot/multiprocess_1728399968965/work
 mutagen==1.47.0
 networkx @ file:///croot/networkx_1737039604450/work
-nltk==3.9.1
+nltk==3.10.0
 numexpr @ file:///io/perseverance-python-buildout/croot/numexpr_1731701292781/work
 numpy @ file:///croot/numpy_and_numpy_base_1747238018250/work/dist/numpy-2.2.5-cp313-cp313-linux_x86_64.whl#sha256=1cad27473806cd9a9baccf6dff3e9f8f21bcb823e2306466201ffd380f4206dc
 nvidia-cublas-cu11==11.11.3.6
