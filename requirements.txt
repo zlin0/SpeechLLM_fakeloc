@@ -38,7 +38,7 @@ joblib @ file:///croot/joblib_1754310200728/work
 kagglehub==0.3.12
 kiwisolver==1.4.8
 lightning-utilities @ file:///io/buildout/croot/lightning-utilities_1735870800919/work
-lxml==6.0.0
+lxml==6.1.0
 MarkupSafe @ file:///croot/markupsafe_1738584038848/work
 matplotlib==3.10.3
 mpmath @ file:///work/perseverance-python-buildout/croot/mpmath_1728396928682/work
