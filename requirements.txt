@@ -111,7 +111,7 @@ typing_extensions @ file:///croot/typing_extensions_1734714854207/work
 tzdata @ file:///croot/python-tzdata_1746123641790/work
 urllib3 @ file:///croot/urllib3_1737133630106/work
 wandb @ file:///home/conda/feedstock_root/build_artifacts/wandb_1749143735044/work
-wheel==0.45.1
+wheel==0.46.2
 wrapt @ file:///croot/wrapt_1736540904746/work
 xxhash @ file:///croot/python-xxhash_1737039434400/work
 yarl @ file:///croot/yarl_1732546845924/work
