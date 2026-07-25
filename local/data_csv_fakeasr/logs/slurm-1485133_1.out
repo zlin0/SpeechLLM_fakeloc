@@ -1,0 +1,741 @@
++ data=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data/
++ json_scp=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1m++/val_audioonly_realvideo/metadata.scp
++ save_dir=/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/av-deepfake1m++-audioonly_realvideo
++ python ./make_avdeepfake1m_det_localization.py --json_scp /export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1m++/val_audioonly_realvideo/metadata.scp --save_dir /export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/av-deepfake1m++-audioonly_realvideo
+  0%|          | 0/32303 [00:00<?, ?it/s]  0%|          | 3/32303 [00:00<28:06, 19.16it/s]  0%|          | 6/32303 [00:00<27:27, 19.60it/s]  0%|          | 8/32303 [00:00<30:12, 17.82it/s]  0%|          | 12/32303 [00:00<22:08, 24.31it/s]  0%|          | 16/32303 [00:00<27:17, 19.72it/s]  0%|          | 19/32303 [00:01<33:41, 15.97it/s]  0%|          | 21/32303 [00:01<35:38, 15.10it/s]  0%|          | 23/32303 [00:01<37:40, 14.28it/s]  0%|          | 25/32303 [00:01<35:04, 15.33it/s]  0%|          | 27/32303 [00:01<42:17, 12.72it/s]  0%|          | 29/32303 [00:01<39:14, 13.71it/s]  0%|          | 31/32303 [00:02<46:20, 11.61it/s]  0%|          | 33/32303 [00:02<42:34, 12.63it/s]  0%|          | 36/32303 [00:02<33:45, 15.93it/s]  0%|          | 38/32303 [00:02<33:15, 16.17it/s]  0%|          | 42/32303 [00:02<24:49, 21.66it/s]  0%|          | 45/32303 [00:02<25:32, 21.05it/s]  0%|          | 48/32303 [00:02<26:48, 20.05it/s]  0%|          | 51/32303 [00:02<24:41, 21.76it/s]  0%|          | 55/32303 [00:03<22:03, 24.37it/s]  0%|          | 58/32303 [00:03<25:33, 21.02it/s]  0%|          | 61/32303 [00:03<28:10, 19.08it/s]  0%|          | 64/32303 [00:03<29:34, 18.17it/s]  0%|          | 66/32303 [00:03<29:08, 18.44it/s]  0%|          | 70/32303 [00:03<24:58, 21.51it/s]  0%|          | 73/32303 [00:04<26:46, 20.06it/s]  0%|          | 76/32303 [00:04<27:25, 19.58it/s]  0%|          | 79/32303 [00:04<25:45, 20.85it/s]  0%|          | 82/32303 [00:04<25:05, 21.40it/s]  0%|          | 85/32303 [00:04<27:59, 19.18it/s]  0%|          | 88/32303 [00:04<29:11, 18.39it/s]  0%|          | 91/32303 [00:05<28:44, 18.68it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01358/hqGQLN6Kle0/00059/real_video_fake_audio.mp4, file: vox_celeb_2/id01358/hqGQLN6Kle0/00059/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/a4vLoBoPHZM/00129/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/a4vLoBoPHZM/00129/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/8CpHO6zIqOg/00029/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/8CpHO6zIqOg/00029/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/ygjOuD7aM2s/00202/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/ygjOuD7aM2s/00202/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/ygjOuD7aM2s/00203/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/ygjOuD7aM2s/00203/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/47ubvTC9hzs/00020/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/47ubvTC9hzs/00020/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/FupIxHuTXTo/00059/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/FupIxHuTXTo/00059/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/qiw54WYGYts/00185/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/qiw54WYGYts/00185/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/5P5A9t9J_To/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/5P5A9t9J_To/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/81KhhmXNnNA/00025/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/81KhhmXNnNA/00025/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/X_SFa0fbETM/00121/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/X_SFa0fbETM/00121/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/X_SFa0fbETM/00119/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/X_SFa0fbETM/00119/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/z9wqcmLIQKU/00213/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/z9wqcmLIQKU/00213/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/woDpGcyoL_8/00195/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/woDpGcyoL_8/00195/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06427/FE4m2_FwOTA/00052/real_video_fake_audio.mp4, file: vox_celeb_2/id06427/FE4m2_FwOTA/00052/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05970/ldUEyyHdqyE/00015/real_video_fake_audio.mp4, file: vox_celeb_2/id05970/ldUEyyHdqyE/00015/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05970/xrj6fsg0wWQ/00025/real_video_fake_audio.mp4, file: vox_celeb_2/id05970/xrj6fsg0wWQ/00025/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05970/qTUkUiMZzwE/00020/real_video_fake_audio.mp4, file: vox_celeb_2/id05970/qTUkUiMZzwE/00020/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06860/c7HxBLi5XbA/00084/real_video_fake_audio.mp4, file: vox_celeb_2/id06860/c7HxBLi5XbA/00084/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06860/LEsop61sFrg/00053/real_video_fake_audio.mp4, file: vox_celeb_2/id06860/LEsop61sFrg/00053/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01445/Y_ckAJWeoaI/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id01445/Y_ckAJWeoaI/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03909/LnDAuB5lfVU/00044/real_video_fake_audio.mp4, file: vox_celeb_2/id03909/LnDAuB5lfVU/00044/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03909/LnDAuB5lfVU/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id03909/LnDAuB5lfVU/00054/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03909/LnDAuB5lfVU/00043/real_video_fake_audio.mp4, file: vox_celeb_2/id03909/LnDAuB5lfVU/00043/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03909/IvvebQaAeaU/00014/real_video_fake_audio.mp4, file: vox_celeb_2/id03909/IvvebQaAeaU/00014/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03909/GHK7zaNQHuw/00007/real_video_fake_audio.mp4, file: vox_celeb_2/id03909/GHK7zaNQHuw/00007/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04178/_eCWpUV7cOI/00045/real_video_fake_audio.mp4, file: vox_celeb_2/id04178/_eCWpUV7cOI/00045/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04178/U2uXeHUbGLg/00035/real_video_fake_audio.mp4, file: vox_celeb_2/id04178/U2uXeHUbGLg/00035/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04178/b_Uwwlj6ncs/00052/real_video_fake_audio.mp4, file: vox_celeb_2/id04178/b_Uwwlj6ncs/00052/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02148/q4aqfUBQCmw/00078/real_video_fake_audio.mp4, file: vox_celeb_2/id02148/q4aqfUBQCmw/00078/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02148/FuPsSnkvzm0/00035/real_video_fake_audio.mp4, file: vox_celeb_2/id02148/FuPsSnkvzm0/00035/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02148/0q3zPXZ962g/00005/real_video_fake_audio.mp4, file: vox_celeb_2/id02148/0q3zPXZ962g/00005/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02148/E10OkNnChYk/00024/real_video_fake_audio.mp4, file: vox_celeb_2/id02148/E10OkNnChYk/00024/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02148/E10OkNnChYk/00017/real_video_fake_audio.mp4, file: vox_celeb_2/id02148/E10OkNnChYk/00017/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/eGhq5qm1CaQ/00320/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/eGhq5qm1CaQ/00320/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/ljh5PB6Utsc/00342/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/ljh5PB6Utsc/00342/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/tCiPy0q5588/00377/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/tCiPy0q5588/00377/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/tCiPy0q5588/00453/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/tCiPy0q5588/00453/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/tCiPy0q5588/00410/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/tCiPy0q5588/00410/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/tCiPy0q5588/00408/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/tCiPy0q5588/00408/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/NZcKt3gL6F8/00177/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/NZcKt3gL6F8/00177/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/SKzTcyWk_B8/00226/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/SKzTcyWk_B8/00226/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/BTuMaeufyOg/00069/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/BTuMaeufyOg/00069/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/ROWN2ssXek8/00188/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/ROWN2ssXek8/00188/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/BLBT1Qo4LRI/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/BLBT1Qo4LRI/00054/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/BLBT1Qo4LRI/00061/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/BLBT1Qo4LRI/00061/real_video_fake_audio.mp4
+  0%|          | 93/32303 [00:05<29:41, 18.08it/s]  0%|          | 96/32303 [00:05<25:57, 20.67it/s]  0%|          | 99/32303 [00:05<28:26, 18.87it/s]  0%|          | 101/32303 [00:05<29:48, 18.00it/s]  0%|          | 103/32303 [00:05<33:41, 15.93it/s]  0%|          | 105/32303 [00:05<40:46, 13.16it/s]  0%|          | 107/32303 [00:06<43:35, 12.31it/s]  0%|          | 109/32303 [00:06<43:19, 12.39it/s]  0%|          | 111/32303 [00:06<48:06, 11.15it/s]  0%|          | 113/32303 [00:06<46:43, 11.48it/s]  0%|          | 115/32303 [00:06<44:15, 12.12it/s]  0%|          | 117/32303 [00:06<42:15, 12.70it/s]  0%|          | 119/32303 [00:07<39:38, 13.53it/s]  0%|          | 121/32303 [00:07<39:35, 13.54it/s]  0%|          | 123/32303 [00:07<44:39, 12.01it/s]  0%|          | 125/32303 [00:07<42:04, 12.75it/s]  0%|          | 127/32303 [00:07<44:53, 11.94it/s]  0%|          | 129/32303 [00:07<41:10, 13.02it/s]  0%|          | 131/32303 [00:08<37:12, 14.41it/s]  0%|          | 135/32303 [00:08<27:02, 19.83it/s]  0%|          | 138/32303 [00:08<24:42, 21.69it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/SGm2vW-Ieik/00208/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/SGm2vW-Ieik/00208/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/H00oAfd_GsM/00133/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/H00oAfd_GsM/00133/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/24EiQNArBoc/00013/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/24EiQNArBoc/00013/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04232/wrO4lok2aUg/00490/real_video_fake_audio.mp4, file: vox_celeb_2/id04232/wrO4lok2aUg/00490/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06152/4Mzh8jQi9Gk/00007/real_video_fake_audio.mp4, file: vox_celeb_2/id06152/4Mzh8jQi9Gk/00007/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06152/bimOHAqjgkY/00076/real_video_fake_audio.mp4, file: vox_celeb_2/id06152/bimOHAqjgkY/00076/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06152/bimOHAqjgkY/00065/real_video_fake_audio.mp4, file: vox_celeb_2/id06152/bimOHAqjgkY/00065/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06152/xCtaFUbElB0/00088/real_video_fake_audio.mp4, file: vox_celeb_2/id06152/xCtaFUbElB0/00088/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06152/KsU7ubvG3S8/00050/real_video_fake_audio.mp4, file: vox_celeb_2/id06152/KsU7ubvG3S8/00050/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03372/osfEKebRCjE/00184/real_video_fake_audio.mp4, file: vox_celeb_2/id03372/osfEKebRCjE/00184/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03372/2p_Ywkdw4ho/00009/real_video_fake_audio.mp4, file: vox_celeb_2/id03372/2p_Ywkdw4ho/00009/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03372/iWveMuqaEu4/00169/real_video_fake_audio.mp4, file: vox_celeb_2/id03372/iWveMuqaEu4/00169/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03372/aRDu5EG7pAg/00139/real_video_fake_audio.mp4, file: vox_celeb_2/id03372/aRDu5EG7pAg/00139/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03372/FZq7NTq0rS4/00045/real_video_fake_audio.mp4, file: vox_celeb_2/id03372/FZq7NTq0rS4/00045/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/OVWtlkKnVIU/00079/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/OVWtlkKnVIU/00079/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/r1BUbaXMHpI/00182/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/r1BUbaXMHpI/00182/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/WkohLfWlLPM/00136/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/WkohLfWlLPM/00136/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/RFgXMdmQQjE/00124/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/RFgXMdmQQjE/00124/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/XJtHsICDRbc/00138/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/XJtHsICDRbc/00138/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/fkOy82zI228/00161/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/fkOy82zI228/00161/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/fkOy82zI228/00149/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/fkOy82zI228/00149/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/6hv4qMqgEPc/00036/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/6hv4qMqgEPc/00036/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/6hv4qMqgEPc/00032/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/6hv4qMqgEPc/00032/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01058/QbxWgbH65Ow/00099/real_video_fake_audio.mp4, file: vox_celeb_2/id01058/QbxWgbH65Ow/00099/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03731/RJeRnl4u1LU/00015/real_video_fake_audio.mp4, file: vox_celeb_2/id03731/RJeRnl4u1LU/00015/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03731/s_re70KdvIg/00043/real_video_fake_audio.mp4, file: vox_celeb_2/id03731/s_re70KdvIg/00043/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03731/MVhkq4sqEZE/00002/real_video_fake_audio.mp4, file: vox_celeb_2/id03731/MVhkq4sqEZE/00002/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03731/dpHJRSRZb3A/00030/real_video_fake_audio.mp4, file: vox_celeb_2/id03731/dpHJRSRZb3A/00030/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04215/ZUSMu8nB-hU/00078/real_video_fake_audio.mp4, file: vox_celeb_2/id04215/ZUSMu8nB-hU/00078/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04215/_T7tUWFLq2Y/00084/real_video_fake_audio.mp4, file: vox_celeb_2/id04215/_T7tUWFLq2Y/00084/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04215/N3bo4sSozt8/00040/real_video_fake_audio.mp4, file: vox_celeb_2/id04215/N3bo4sSozt8/00040/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04215/gFaVApKy5m0/00100/real_video_fake_audio.mp4, file: vox_celeb_2/id04215/gFaVApKy5m0/00100/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04215/54YrGGelrtA/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id04215/54YrGGelrtA/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04215/TEvqsyYn-9w/00057/real_video_fake_audio.mp4, file: vox_celeb_2/id04215/TEvqsyYn-9w/00057/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04215/xrX4Q4bXphE/00115/real_video_fake_audio.mp4, file: vox_celeb_2/id04215/xrX4Q4bXphE/00115/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08685/XBoNwG1FlQo/00031/real_video_fake_audio.mp4, file: vox_celeb_2/id08685/XBoNwG1FlQo/00031/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/cQGlkyCYhxc/00126/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/cQGlkyCYhxc/00126/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/U1yeMYiwGRE/00101/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/U1yeMYiwGRE/00101/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/DqbB91FFx0c/00046/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/DqbB91FFx0c/00046/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/DqbB91FFx0c/00050/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/DqbB91FFx0c/00050/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/K6b69erklJY/00066/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/K6b69erklJY/00066/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/HEs7TDBUt70/00060/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/HEs7TDBUt70/00060/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/HEs7TDBUt70/00062/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/HEs7TDBUt70/00062/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00945/dls1pNaT_fc/00145/real_video_fake_audio.mp4, file: vox_celeb_2/id00945/dls1pNaT_fc/00145/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05042/tR_i_V1pG5A/00139/real_video_fake_audio.mp4, file: vox_celeb_2/id05042/tR_i_V1pG5A/00139/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05042/j0b0a_oJgeU/00132/real_video_fake_audio.mp4, file: vox_celeb_2/id05042/j0b0a_oJgeU/00132/real_video_fake_audio.mp4
+  0%|          | 142/32303 [00:08<21:40, 24.72it/s]  0%|          | 145/32303 [00:08<22:59, 23.31it/s]  0%|          | 149/32303 [00:08<20:39, 25.95it/s]  0%|          | 152/32303 [00:08<22:18, 24.02it/s]  0%|          | 156/32303 [00:08<19:38, 27.27it/s]  0%|          | 159/32303 [00:09<26:17, 20.37it/s]  1%|          | 162/32303 [00:09<29:54, 17.91it/s]  1%|          | 165/32303 [00:09<28:32, 18.77it/s]  1%|          | 168/32303 [00:09<31:09, 17.19it/s]  1%|          | 171/32303 [00:09<27:37, 19.39it/s]  1%|          | 174/32303 [00:10<32:13, 16.62it/s]  1%|          | 176/32303 [00:10<31:45, 16.86it/s]  1%|          | 179/32303 [00:10<31:13, 17.14it/s]  1%|          | 182/32303 [00:10<27:07, 19.73it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05042/qsprruNdwFg/00136/real_video_fake_audio.mp4, file: vox_celeb_2/id05042/qsprruNdwFg/00136/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05042/M8mgFXzxaQ8/00035/real_video_fake_audio.mp4, file: vox_celeb_2/id05042/M8mgFXzxaQ8/00035/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05042/SIx5G21ZMN8/00070/real_video_fake_audio.mp4, file: vox_celeb_2/id05042/SIx5G21ZMN8/00070/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05042/SIx5G21ZMN8/00066/real_video_fake_audio.mp4, file: vox_celeb_2/id05042/SIx5G21ZMN8/00066/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02844/ddpXy8baSZM/00018/real_video_fake_audio.mp4, file: vox_celeb_2/id02844/ddpXy8baSZM/00018/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02844/W5XiIernWw8/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id02844/W5XiIernWw8/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04342/UId6WbLFOkE/00082/real_video_fake_audio.mp4, file: vox_celeb_2/id04342/UId6WbLFOkE/00082/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04342/UId6WbLFOkE/00083/real_video_fake_audio.mp4, file: vox_celeb_2/id04342/UId6WbLFOkE/00083/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04342/Q7njHW7LVgs/00073/real_video_fake_audio.mp4, file: vox_celeb_2/id04342/Q7njHW7LVgs/00073/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04342/_932nJWlwpA/00096/real_video_fake_audio.mp4, file: vox_celeb_2/id04342/_932nJWlwpA/00096/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04342/H5_bbOi8fQA/00036/real_video_fake_audio.mp4, file: vox_celeb_2/id04342/H5_bbOi8fQA/00036/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04342/2ZolNY3BOK0/00011/real_video_fake_audio.mp4, file: vox_celeb_2/id04342/2ZolNY3BOK0/00011/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04342/_nnfYgLYWRM/00103/real_video_fake_audio.mp4, file: vox_celeb_2/id04342/_nnfYgLYWRM/00103/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07571/iap665D7NPs/00045/real_video_fake_audio.mp4, file: vox_celeb_2/id07571/iap665D7NPs/00045/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07571/F8jglCW_ZTs/00009/real_video_fake_audio.mp4, file: vox_celeb_2/id07571/F8jglCW_ZTs/00009/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07571/F8jglCW_ZTs/00004/real_video_fake_audio.mp4, file: vox_celeb_2/id07571/F8jglCW_ZTs/00004/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07571/B_rxA9f3l7A/00001/real_video_fake_audio.mp4, file: vox_celeb_2/id07571/B_rxA9f3l7A/00001/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06232/bdtz9Rc_EMo/00036/real_video_fake_audio.mp4, file: vox_celeb_2/id06232/bdtz9Rc_EMo/00036/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06232/bdtz9Rc_EMo/00058/real_video_fake_audio.mp4, file: vox_celeb_2/id06232/bdtz9Rc_EMo/00058/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04651/c3qPknG8Bjs/00034/real_video_fake_audio.mp4, file: vox_celeb_2/id04651/c3qPknG8Bjs/00034/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04651/6yoTdwahZrA/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id04651/6yoTdwahZrA/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04054/uPGub6MlOH8/00139/real_video_fake_audio.mp4, file: vox_celeb_2/id04054/uPGub6MlOH8/00139/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04054/uPGub6MlOH8/00140/real_video_fake_audio.mp4, file: vox_celeb_2/id04054/uPGub6MlOH8/00140/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04054/ajWJT6_fSXk/00071/real_video_fake_audio.mp4, file: vox_celeb_2/id04054/ajWJT6_fSXk/00071/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01397/TbCad3O7uMY/00057/real_video_fake_audio.mp4, file: vox_celeb_2/id01397/TbCad3O7uMY/00057/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01397/K-KcJp_bw_0/00029/real_video_fake_audio.mp4, file: vox_celeb_2/id01397/K-KcJp_bw_0/00029/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01397/K-KcJp_bw_0/00048/real_video_fake_audio.mp4, file: vox_celeb_2/id01397/K-KcJp_bw_0/00048/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01397/K-KcJp_bw_0/00040/real_video_fake_audio.mp4, file: vox_celeb_2/id01397/K-KcJp_bw_0/00040/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01397/yO8dQvi9AEQ/00061/real_video_fake_audio.mp4, file: vox_celeb_2/id01397/yO8dQvi9AEQ/00061/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01397/H256GCDVfng/00003/real_video_fake_audio.mp4, file: vox_celeb_2/id01397/H256GCDVfng/00003/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/aF9QqQw0qu4/00067/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/aF9QqQw0qu4/00067/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/69KEdYX4vv4/00013/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/69KEdYX4vv4/00013/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/d_xM8Q-H_sc/00112/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/d_xM8Q-H_sc/00112/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/l-mysbParGw/00116/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/l-mysbParGw/00116/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/v7dSuLt3rOs/00117/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/v7dSuLt3rOs/00117/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/AAGR8x5X0XM/00023/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/AAGR8x5X0XM/00023/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/AAGR8x5X0XM/00027/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/AAGR8x5X0XM/00027/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01258/AAGR8x5X0XM/00024/real_video_fake_audio.mp4, file: vox_celeb_2/id01258/AAGR8x5X0XM/00024/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/Jp0pUTz4sQI/00171/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/Jp0pUTz4sQI/00171/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/oK0etSLbAa8/00439/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/oK0etSLbAa8/00439/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/w-UpD0pOJoM/00486/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/w-UpD0pOJoM/00486/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/TN_5sdi9pLs/00205/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/TN_5sdi9pLs/00205/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/TN_5sdi9pLs/00203/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/TN_5sdi9pLs/00203/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/TN_5sdi9pLs/00199/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/TN_5sdi9pLs/00199/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/fBSQmJ77Z90/00268/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/fBSQmJ77Z90/00268/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/nqUwvX_sPxA/00394/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/nqUwvX_sPxA/00394/real_video_fake_audio.mp4
+  1%|          | 186/32303 [00:10<22:27, 23.83it/s]  1%|          | 189/32303 [00:10<21:13, 25.21it/s]  1%|          | 192/32303 [00:10<20:58, 25.51it/s]  1%|          | 196/32303 [00:10<18:31, 28.90it/s]  1%|          | 200/32303 [00:10<17:17, 30.95it/s]  1%|          | 204/32303 [00:11<21:54, 24.42it/s]  1%|          | 207/32303 [00:11<23:49, 22.46it/s]  1%|          | 210/32303 [00:11<25:11, 21.23it/s]  1%|          | 213/32303 [00:11<27:31, 19.44it/s]  1%|          | 216/32303 [00:11<31:11, 17.15it/s]  1%|          | 219/32303 [00:12<28:27, 18.79it/s]  1%|          | 222/32303 [00:12<25:43, 20.78it/s]  1%|          | 225/32303 [00:12<23:53, 22.38it/s]  1%|          | 228/32303 [00:12<23:47, 22.46it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/1sv7W4FP3EU/00001/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/1sv7W4FP3EU/00001/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/1sv7W4FP3EU/00020/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/1sv7W4FP3EU/00020/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/1sv7W4FP3EU/00010/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/1sv7W4FP3EU/00010/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/nzEklhnkOx4/00415/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/nzEklhnkOx4/00415/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/AfjinXtE77o/00108/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/AfjinXtE77o/00108/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/AfjinXtE77o/00110/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/AfjinXtE77o/00110/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/AfjinXtE77o/00125/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/AfjinXtE77o/00125/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/40FoPao6bmw/00046/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/40FoPao6bmw/00046/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/40FoPao6bmw/00042/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/40FoPao6bmw/00042/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/4mDQ3tNm-ac/00059/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/4mDQ3tNm-ac/00059/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/4mDQ3tNm-ac/00061/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/4mDQ3tNm-ac/00061/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/kEJZm5NFQzA/00341/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/kEJZm5NFQzA/00341/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/20_o8Q3ni6w/00024/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/20_o8Q3ni6w/00024/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/jrpT61FdyVE/00317/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/jrpT61FdyVE/00317/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/x5bNRIs3-vg/00494/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/x5bNRIs3-vg/00494/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/p4pSxCzjE0k/00444/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/p4pSxCzjE0k/00444/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/_jvoeI_78h4/00239/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/_jvoeI_78h4/00239/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04216/IbyFn4Ak_wE/00158/real_video_fake_audio.mp4, file: vox_celeb_2/id04216/IbyFn4Ak_wE/00158/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04943/tu6vb09QBD0/00130/real_video_fake_audio.mp4, file: vox_celeb_2/id04943/tu6vb09QBD0/00130/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04943/Dtwx3b5B5oI/00030/real_video_fake_audio.mp4, file: vox_celeb_2/id04943/Dtwx3b5B5oI/00030/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04943/C0eHsTWrQg4/00024/real_video_fake_audio.mp4, file: vox_celeb_2/id04943/C0eHsTWrQg4/00024/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04029/q3uQG50hsB8/00060/real_video_fake_audio.mp4, file: vox_celeb_2/id04029/q3uQG50hsB8/00060/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01795/2wVh0Y1k7Ow/00014/real_video_fake_audio.mp4, file: vox_celeb_2/id01795/2wVh0Y1k7Ow/00014/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01795/lvGh-5StJW4/00074/real_video_fake_audio.mp4, file: vox_celeb_2/id01795/lvGh-5StJW4/00074/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01795/lvGh-5StJW4/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id01795/lvGh-5StJW4/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01795/lvGh-5StJW4/00069/real_video_fake_audio.mp4, file: vox_celeb_2/id01795/lvGh-5StJW4/00069/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01795/prZGEJ0rrhI/00090/real_video_fake_audio.mp4, file: vox_celeb_2/id01795/prZGEJ0rrhI/00090/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01795/GQkjZGtVzJg/00032/real_video_fake_audio.mp4, file: vox_celeb_2/id01795/GQkjZGtVzJg/00032/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01238/txS2iuCwjDk/00097/real_video_fake_audio.mp4, file: vox_celeb_2/id01238/txS2iuCwjDk/00097/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01238/cvXfFt-bE2w/00044/real_video_fake_audio.mp4, file: vox_celeb_2/id01238/cvXfFt-bE2w/00044/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01238/zXFlMMb-M5Y/00117/real_video_fake_audio.mp4, file: vox_celeb_2/id01238/zXFlMMb-M5Y/00117/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01238/zXFlMMb-M5Y/00119/real_video_fake_audio.mp4, file: vox_celeb_2/id01238/zXFlMMb-M5Y/00119/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01238/m554Pca7RFA/00059/real_video_fake_audio.mp4, file: vox_celeb_2/id01238/m554Pca7RFA/00059/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/835_7XqJbp0/00032/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/835_7XqJbp0/00032/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/nzx7gNXpLaE/00340/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/nzx7gNXpLaE/00340/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/fjF2XAdLedM/00278/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/fjF2XAdLedM/00278/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/3eYZf4dXSDU/00014/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/3eYZf4dXSDU/00014/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/3eYZf4dXSDU/00023/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/3eYZf4dXSDU/00023/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/sUUuFHUjYhU/00467/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/sUUuFHUjYhU/00467/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/Hz6-LTAcwq8/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/Hz6-LTAcwq8/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/MbahbP3XRXw/00121/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/MbahbP3XRXw/00121/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/q4gv9cNQv0Y/00374/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/q4gv9cNQv0Y/00374/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/q4gv9cNQv0Y/00430/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/q4gv9cNQv0Y/00430/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/q4gv9cNQv0Y/00384/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/q4gv9cNQv0Y/00384/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/q4gv9cNQv0Y/00412/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/q4gv9cNQv0Y/00412/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/q4gv9cNQv0Y/00358/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/q4gv9cNQv0Y/00358/real_video_fake_audio.mp4
+  1%|          | 231/32303 [00:12<22:50, 23.39it/s]  1%|          | 234/32303 [00:12<22:16, 23.99it/s]  1%|          | 237/32303 [00:12<22:50, 23.39it/s]  1%|          | 240/32303 [00:12<22:03, 24.22it/s]  1%|          | 243/32303 [00:13<23:22, 22.86it/s]  1%|          | 246/32303 [00:13<25:13, 21.18it/s]  1%|          | 249/32303 [00:13<27:51, 19.18it/s]  1%|          | 252/32303 [00:13<25:13, 21.18it/s]  1%|          | 255/32303 [00:13<26:58, 19.80it/s]  1%|          | 258/32303 [00:13<26:20, 20.27it/s]  1%|          | 261/32303 [00:13<27:02, 19.75it/s]  1%|          | 264/32303 [00:14<29:29, 18.11it/s]  1%|          | 268/32303 [00:14<24:32, 21.75it/s]  1%|          | 271/32303 [00:14<22:44, 23.47it/s]  1%|          | 274/32303 [00:14<22:56, 23.27it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/q4gv9cNQv0Y/00404/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/q4gv9cNQv0Y/00404/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/q4gv9cNQv0Y/00426/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/q4gv9cNQv0Y/00426/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ub0v408586I/00474/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ub0v408586I/00474/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/kggkwEw6-YM/00317/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/kggkwEw6-YM/00317/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/kggkwEw6-YM/00311/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/kggkwEw6-YM/00311/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/PwN9DEhdRHw/00148/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/PwN9DEhdRHw/00148/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/PwN9DEhdRHw/00149/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/PwN9DEhdRHw/00149/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00219/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00219/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00275/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00275/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00235/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00235/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00255/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00255/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00228/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00228/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00254/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00254/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00220/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00220/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00252/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00252/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00223/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00223/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00222/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00222/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/ck2Nv87sWSk/00229/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/ck2Nv87sWSk/00229/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01098/i0GXNVUVOow/00293/real_video_fake_audio.mp4, file: vox_celeb_2/id01098/i0GXNVUVOow/00293/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/UkO3JubUo8Y/00180/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/UkO3JubUo8Y/00180/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/J5KOtxBWMaw/00080/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/J5KOtxBWMaw/00080/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/NERgyfqZdPA/00125/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/NERgyfqZdPA/00125/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/NERgyfqZdPA/00111/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/NERgyfqZdPA/00111/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/U3TILFeM8jA/00169/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/U3TILFeM8jA/00169/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/JbbZ8at5OF8/00093/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/JbbZ8at5OF8/00093/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/JbbZ8at5OF8/00102/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/JbbZ8at5OF8/00102/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/y_F4aAkN0d8/00419/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/y_F4aAkN0d8/00419/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/y_F4aAkN0d8/00417/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/y_F4aAkN0d8/00417/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/YswWMAZHgUY/00214/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/YswWMAZHgUY/00214/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/YswWMAZHgUY/00220/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/YswWMAZHgUY/00220/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/dqpXm8FTueY/00270/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/dqpXm8FTueY/00270/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/_NVxlFSjV0I/00241/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/_NVxlFSjV0I/00241/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/fNJ7ttOFOkI/00281/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/fNJ7ttOFOkI/00281/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/t5wsKOjVbso/00385/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/t5wsKOjVbso/00385/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/t5wsKOjVbso/00392/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/t5wsKOjVbso/00392/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/YdoK1gucOng/00211/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/YdoK1gucOng/00211/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/pPWGEPixOoM/00339/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/pPWGEPixOoM/00339/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/OOFX5jvzHKs/00141/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/OOFX5jvzHKs/00141/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/OOFX5jvzHKs/00139/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/OOFX5jvzHKs/00139/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/iT_AF2RMm0E/00296/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/iT_AF2RMm0E/00296/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/WWbnzf8UrX4/00207/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/WWbnzf8UrX4/00207/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/r-xJUB0A4ok/00351/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/r-xJUB0A4ok/00351/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/FKY5V8wmX5k/00053/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/FKY5V8wmX5k/00053/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/FbMIT0UuHo0/00057/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/FbMIT0UuHo0/00057/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/FbMIT0UuHo0/00058/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/FbMIT0UuHo0/00058/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03347/FbMIT0UuHo0/00072/real_video_fake_audio.mp4, file: vox_celeb_2/id03347/FbMIT0UuHo0/00072/real_video_fake_audio.mp4
+  1%|          | 277/32303 [00:14<26:40, 20.01it/s]  1%|          | 281/32303 [00:14<23:03, 23.14it/s]  1%|          | 284/32303 [00:14<22:41, 23.52it/s]  1%|          | 287/32303 [00:15<25:56, 20.57it/s]  1%|          | 290/32303 [00:15<24:46, 21.54it/s]  1%|          | 293/32303 [00:15<28:57, 18.43it/s]  1%|          | 295/32303 [00:15<28:52, 18.48it/s]  1%|          | 297/32303 [00:15<29:30, 18.08it/s]  1%|          | 299/32303 [00:15<31:19, 17.02it/s]  1%|          | 302/32303 [00:16<29:00, 18.39it/s]  1%|          | 304/32303 [00:16<28:57, 18.41it/s]  1%|          | 306/32303 [00:16<30:20, 17.58it/s]  1%|          | 308/32303 [00:16<44:01, 12.11it/s]  1%|          | 310/32303 [00:16<48:59, 10.88it/s]  1%|          | 312/32303 [00:16<48:17, 11.04it/s]  1%|          | 315/32303 [00:17<42:41, 12.49it/s]  1%|          | 318/32303 [00:17<36:31, 14.59it/s]  1%|          | 320/32303 [00:17<40:25, 13.19it/s]  1%|          | 322/32303 [00:17<37:18, 14.29it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/iJ6xM00R0NM/00100/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/iJ6xM00R0NM/00100/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/iJ6xM00R0NM/00105/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/iJ6xM00R0NM/00105/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/hWezREj7tu8/00094/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/hWezREj7tu8/00094/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/gtEo4JNVJZc/00093/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/gtEo4JNVJZc/00093/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/6G3uT9ppRVw/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/6G3uT9ppRVw/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/biRNHN1S_Ug/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/biRNHN1S_Ug/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/oiRVgt0wpGs/00120/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/oiRVgt0wpGs/00120/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/bIuf0RhenF8/00050/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/bIuf0RhenF8/00050/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/xGuSHdjM72k/00131/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/xGuSHdjM72k/00131/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/xGuSHdjM72k/00127/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/xGuSHdjM72k/00127/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/YC6or0R1C60/00035/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/YC6or0R1C60/00035/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03428/YC6or0R1C60/00037/real_video_fake_audio.mp4, file: vox_celeb_2/id03428/YC6or0R1C60/00037/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02576/bWGJNH_BGuo/00104/real_video_fake_audio.mp4, file: vox_celeb_2/id02576/bWGJNH_BGuo/00104/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02576/5O2ih1vInAE/00026/real_video_fake_audio.mp4, file: vox_celeb_2/id02576/5O2ih1vInAE/00026/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02576/u2iEWb-kE3g/00126/real_video_fake_audio.mp4, file: vox_celeb_2/id02576/u2iEWb-kE3g/00126/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02576/1I_1rFQPPSo/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id02576/1I_1rFQPPSo/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02576/C5Maleh71A8/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id02576/C5Maleh71A8/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02576/C5Maleh71A8/00064/real_video_fake_audio.mp4, file: vox_celeb_2/id02576/C5Maleh71A8/00064/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01866/FVX8-jwqPPM/00024/real_video_fake_audio.mp4, file: vox_celeb_2/id01866/FVX8-jwqPPM/00024/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01866/0Zq_524wKPU/00009/real_video_fake_audio.mp4, file: vox_celeb_2/id01866/0Zq_524wKPU/00009/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03320/ilyNgT_Ny48/00009/real_video_fake_audio.mp4, file: vox_celeb_2/id03320/ilyNgT_Ny48/00009/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03320/nlDZATt8fhk/00013/real_video_fake_audio.mp4, file: vox_celeb_2/id03320/nlDZATt8fhk/00013/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/SjQSUbA2huw/00218/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/SjQSUbA2huw/00218/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/ES5pGlNnIe8/00131/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/ES5pGlNnIe8/00131/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/874vWZKf9M8/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/874vWZKf9M8/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/jei-7cNCjrg/00306/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/jei-7cNCjrg/00306/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/DfidGycVUBA/00092/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/DfidGycVUBA/00092/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/DfidGycVUBA/00088/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/DfidGycVUBA/00088/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/DfidGycVUBA/00098/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/DfidGycVUBA/00098/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/WDidt6ipHRQ/00260/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/WDidt6ipHRQ/00260/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/Bguz87T1zmo/00079/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/Bguz87T1zmo/00079/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/vE7-JhOAfyo/00415/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/vE7-JhOAfyo/00415/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/vE7-JhOAfyo/00403/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/vE7-JhOAfyo/00403/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/SmpuUsdBgGc/00223/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/SmpuUsdBgGc/00223/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/SPBtCIGpl5M/00203/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/SPBtCIGpl5M/00203/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/SEYcZWALOUA/00197/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/SEYcZWALOUA/00197/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/4jFnAdWsHLs/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/4jFnAdWsHLs/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/Crqo887vot4/00080/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/Crqo887vot4/00080/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/UStsNO3VmjU/00243/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/UStsNO3VmjU/00243/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/6as3MDoBVmg/00025/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/6as3MDoBVmg/00025/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/tvhrhU_5rXM/00377/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/tvhrhU_5rXM/00377/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/tvhrhU_5rXM/00385/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/tvhrhU_5rXM/00385/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/mqXpAKiTTug/00341/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/mqXpAKiTTug/00341/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/MaUtkRSt5oE/00177/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/MaUtkRSt5oE/00177/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04320/K5Q6luNuZhE/00151/real_video_fake_audio.mp4, file: vox_celeb_2/id04320/K5Q6luNuZhE/00151/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/_fFOJaPKRfc/00097/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/_fFOJaPKRfc/00097/real_video_fake_audio.mp4
+  1%|          | 326/32303 [00:17<27:57, 19.07it/s]  1%|          | 329/32303 [00:17<31:48, 16.75it/s]  1%|          | 332/32303 [00:18<29:08, 18.29it/s]  1%|          | 335/32303 [00:18<29:19, 18.17it/s]  1%|          | 338/32303 [00:18<29:13, 18.23it/s]  1%|          | 343/32303 [00:18<21:26, 24.84it/s]  1%|          | 348/32303 [00:18<19:40, 27.08it/s]  1%|          | 351/32303 [00:18<25:05, 21.23it/s]  1%|          | 354/32303 [00:19<27:32, 19.33it/s]  1%|          | 357/32303 [00:19<28:13, 18.86it/s]  1%|          | 360/32303 [00:19<27:41, 19.23it/s]  1%|          | 363/32303 [00:19<31:30, 16.89it/s]  1%|          | 366/32303 [00:19<28:24, 18.74it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/vOAQd6xrk9M/00158/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/vOAQd6xrk9M/00158/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/vOAQd6xrk9M/00161/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/vOAQd6xrk9M/00161/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/VMz3nVYOvPE/00077/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/VMz3nVYOvPE/00077/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/VMz3nVYOvPE/00075/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/VMz3nVYOvPE/00075/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/Za9nRh7VsP8/00086/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/Za9nRh7VsP8/00086/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/qmVtni61jfc/00148/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/qmVtni61jfc/00148/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02151/EwVNq6DaFIw/00023/real_video_fake_audio.mp4, file: vox_celeb_2/id02151/EwVNq6DaFIw/00023/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/FdSby804DLI/00051/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/FdSby804DLI/00051/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/1-DtpjxuO1Y/00005/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/1-DtpjxuO1Y/00005/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/RqBJ89fFwLc/00071/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/RqBJ89fFwLc/00071/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/RqBJ89fFwLc/00086/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/RqBJ89fFwLc/00086/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/2ZwHwy1fh1o/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/2ZwHwy1fh1o/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/2ZwHwy1fh1o/00012/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/2ZwHwy1fh1o/00012/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/BbqRX0-M9VQ/00037/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/BbqRX0-M9VQ/00037/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07848/wQu26S_34mg/00177/real_video_fake_audio.mp4, file: vox_celeb_2/id07848/wQu26S_34mg/00177/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02445/Qz9cV2614Kk/00050/real_video_fake_audio.mp4, file: vox_celeb_2/id02445/Qz9cV2614Kk/00050/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02445/oQzAlnXUR38/00087/real_video_fake_audio.mp4, file: vox_celeb_2/id02445/oQzAlnXUR38/00087/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02445/oQzAlnXUR38/00093/real_video_fake_audio.mp4, file: vox_celeb_2/id02445/oQzAlnXUR38/00093/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02445/oQzAlnXUR38/00088/real_video_fake_audio.mp4, file: vox_celeb_2/id02445/oQzAlnXUR38/00088/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02445/I0NOfHQycvw/00042/real_video_fake_audio.mp4, file: vox_celeb_2/id02445/I0NOfHQycvw/00042/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04885/RCqZfavTI-s/00019/real_video_fake_audio.mp4, file: vox_celeb_2/id04885/RCqZfavTI-s/00019/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01329/yugWzKlwcyc/00133/real_video_fake_audio.mp4, file: vox_celeb_2/id01329/yugWzKlwcyc/00133/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01329/4VI6uhDaAy4/00014/real_video_fake_audio.mp4, file: vox_celeb_2/id01329/4VI6uhDaAy4/00014/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01329/t5zOvd9wbNM/00095/real_video_fake_audio.mp4, file: vox_celeb_2/id01329/t5zOvd9wbNM/00095/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01329/t5zOvd9wbNM/00102/real_video_fake_audio.mp4, file: vox_celeb_2/id01329/t5zOvd9wbNM/00102/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01329/t5zOvd9wbNM/00115/real_video_fake_audio.mp4, file: vox_celeb_2/id01329/t5zOvd9wbNM/00115/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01329/LRV1O-Cd_c0/00052/real_video_fake_audio.mp4, file: vox_celeb_2/id01329/LRV1O-Cd_c0/00052/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id09006/K06WbQrMQcs/00018/real_video_fake_audio.mp4, file: vox_celeb_2/id09006/K06WbQrMQcs/00018/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id09006/3cNILNKWnrA/00011/real_video_fake_audio.mp4, file: vox_celeb_2/id09006/3cNILNKWnrA/00011/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id09006/emAYuhf9znE/00038/real_video_fake_audio.mp4, file: vox_celeb_2/id09006/emAYuhf9znE/00038/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/LrGmTl5JyDY/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/LrGmTl5JyDY/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/QKho_lLrMyw/00066/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/QKho_lLrMyw/00066/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/QKho_lLrMyw/00068/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/QKho_lLrMyw/00068/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/khRGhO2AqKk/00113/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/khRGhO2AqKk/00113/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/zUcXYhaMG-g/00162/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/zUcXYhaMG-g/00162/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/D-I64ABlp6s/00030/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/D-I64ABlp6s/00030/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/D-I64ABlp6s/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/D-I64ABlp6s/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07089/D-I64ABlp6s/00025/real_video_fake_audio.mp4, file: vox_celeb_2/id07089/D-I64ABlp6s/00025/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03004/bGkzGFhZEPs/00066/real_video_fake_audio.mp4, file: vox_celeb_2/id03004/bGkzGFhZEPs/00066/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03004/Y-A2lXNPz2I/00052/real_video_fake_audio.mp4, file: vox_celeb_2/id03004/Y-A2lXNPz2I/00052/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03004/Ppd32vbtMhk/00027/real_video_fake_audio.mp4, file: vox_celeb_2/id03004/Ppd32vbtMhk/00027/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03004/vUche8czHk8/00083/real_video_fake_audio.mp4, file: vox_celeb_2/id03004/vUche8czHk8/00083/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03004/rxbVGa8ZJL4/00078/real_video_fake_audio.mp4, file: vox_celeb_2/id03004/rxbVGa8ZJL4/00078/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01274/7nIcI0EoO_o/00027/real_video_fake_audio.mp4, file: vox_celeb_2/id01274/7nIcI0EoO_o/00027/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01274/7nIcI0EoO_o/00035/real_video_fake_audio.mp4, file: vox_celeb_2/id01274/7nIcI0EoO_o/00035/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01274/1lAXa-gqDCU/00001/real_video_fake_audio.mp4, file: vox_celeb_2/id01274/1lAXa-gqDCU/00001/real_video_fake_audio.mp4
+  1%|          | 369/32303 [00:19<27:20, 19.46it/s]  1%|          | 372/32303 [00:20<27:47, 19.15it/s]  1%|          | 375/32303 [00:20<27:35, 19.29it/s]  1%|          | 380/32303 [00:20<24:12, 21.98it/s]  1%|          | 384/32303 [00:20<25:28, 20.88it/s]  1%|          | 387/32303 [00:20<28:56, 18.38it/s]  1%|          | 390/32303 [00:20<26:06, 20.38it/s]  1%|          | 393/32303 [00:21<24:15, 21.93it/s]  1%|          | 396/32303 [00:21<28:33, 18.62it/s]  1%|          | 400/32303 [00:21<24:00, 22.14it/s]  1%|          | 403/32303 [00:21<26:54, 19.76it/s]  1%|▏         | 406/32303 [00:21<25:28, 20.87it/s]  1%|▏         | 409/32303 [00:21<24:06, 22.05it/s]  1%|▏         | 413/32303 [00:21<20:26, 26.00it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01274/4YPReRADbP8/00013/real_video_fake_audio.mp4, file: vox_celeb_2/id01274/4YPReRADbP8/00013/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01274/YUeOhg1oy7E/00148/real_video_fake_audio.mp4, file: vox_celeb_2/id01274/YUeOhg1oy7E/00148/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01274/Bv9dwK4fDAg/00071/real_video_fake_audio.mp4, file: vox_celeb_2/id01274/Bv9dwK4fDAg/00071/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01274/Bv9dwK4fDAg/00070/real_video_fake_audio.mp4, file: vox_celeb_2/id01274/Bv9dwK4fDAg/00070/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/FqWfK8g6tII/00112/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/FqWfK8g6tII/00112/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/FqWfK8g6tII/00129/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/FqWfK8g6tII/00129/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/0yl138Yqizw/00012/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/0yl138Yqizw/00012/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/bNYj1H1lJQg/00225/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/bNYj1H1lJQg/00225/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/tOBbdr3HWUw/00404/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/tOBbdr3HWUw/00404/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/mHVmGaFDv54/00337/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/mHVmGaFDv54/00337/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/2nQB34CjoHM/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/2nQB34CjoHM/00054/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/dPu8k6mcrZw/00239/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/dPu8k6mcrZw/00239/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/dPu8k6mcrZw/00238/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/dPu8k6mcrZw/00238/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/dPu8k6mcrZw/00253/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/dPu8k6mcrZw/00253/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/Mplhr5xownY/00153/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/Mplhr5xownY/00153/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/kU4DygP-puM/00302/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/kU4DygP-puM/00302/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/kU4DygP-puM/00292/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/kU4DygP-puM/00292/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/kU4DygP-puM/00305/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/kU4DygP-puM/00305/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/kU4DygP-puM/00313/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/kU4DygP-puM/00313/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/iDnYY_ertuA/00280/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/iDnYY_ertuA/00280/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/2m2YK589vGg/00031/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/2m2YK589vGg/00031/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/5fFafECpux8/00080/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/5fFafECpux8/00080/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/4CYcdULLXsY/00071/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/4CYcdULLXsY/00071/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/4CYcdULLXsY/00068/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/4CYcdULLXsY/00068/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/u5F-Pk2mUvs/00408/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/u5F-Pk2mUvs/00408/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/G6peFVNEpX8/00138/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/G6peFVNEpX8/00138/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07043/W39S_mA-9eE/00189/real_video_fake_audio.mp4, file: vox_celeb_2/id07043/W39S_mA-9eE/00189/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07510/G7qjQoyBJvA/00013/real_video_fake_audio.mp4, file: vox_celeb_2/id07510/G7qjQoyBJvA/00013/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00989/jK1qHKGvJJ8/00039/real_video_fake_audio.mp4, file: vox_celeb_2/id00989/jK1qHKGvJJ8/00039/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id00989/lBnJvedgUz0/00050/real_video_fake_audio.mp4, file: vox_celeb_2/id00989/lBnJvedgUz0/00050/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01595/Eq9LKAberRE/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id01595/Eq9LKAberRE/00054/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01595/Ne6Lvyk4Qro/00087/real_video_fake_audio.mp4, file: vox_celeb_2/id01595/Ne6Lvyk4Qro/00087/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01595/zeHhQkeubjU/00142/real_video_fake_audio.mp4, file: vox_celeb_2/id01595/zeHhQkeubjU/00142/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01595/OIiMNHsNc4c/00095/real_video_fake_audio.mp4, file: vox_celeb_2/id01595/OIiMNHsNc4c/00095/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01595/OIiMNHsNc4c/00091/real_video_fake_audio.mp4, file: vox_celeb_2/id01595/OIiMNHsNc4c/00091/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01595/RxKBooOVfac/00106/real_video_fake_audio.mp4, file: vox_celeb_2/id01595/RxKBooOVfac/00106/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/drOJ-WCbixA/00225/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/drOJ-WCbixA/00225/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/drOJ-WCbixA/00207/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/drOJ-WCbixA/00207/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/drOJ-WCbixA/00228/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/drOJ-WCbixA/00228/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/drOJ-WCbixA/00213/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/drOJ-WCbixA/00213/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/drOJ-WCbixA/00274/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/drOJ-WCbixA/00274/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/QgD2C7Z0E-g/00170/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/QgD2C7Z0E-g/00170/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/QgD2C7Z0E-g/00168/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/QgD2C7Z0E-g/00168/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/p33bkdZ358o/00367/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/p33bkdZ358o/00367/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/CzSP51Bjydk/00075/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/CzSP51Bjydk/00075/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/XjhyY5ODdkI/00175/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/XjhyY5ODdkI/00175/real_video_fake_audio.mp4
+  1%|▏         | 416/32303 [00:22<28:38, 18.55it/s]  1%|▏         | 419/32303 [00:22<31:44, 16.74it/s]  1%|▏         | 422/32303 [00:22<34:18, 15.49it/s]  1%|▏         | 424/32303 [00:22<34:26, 15.43it/s]  1%|▏         | 427/32303 [00:22<33:07, 16.04it/s]  1%|▏         | 429/32303 [00:23<36:53, 14.40it/s]  1%|▏         | 431/32303 [00:23<35:02, 15.16it/s]  1%|▏         | 433/32303 [00:23<33:47, 15.72it/s]  1%|▏         | 436/32303 [00:23<32:12, 16.49it/s]  1%|▏         | 439/32303 [00:23<30:11, 17.59it/s]  1%|▏         | 441/32303 [00:23<31:56, 16.63it/s]  1%|▏         | 443/32303 [00:23<32:09, 16.51it/s]  1%|▏         | 445/32303 [00:24<34:32, 15.37it/s]  1%|▏         | 447/32303 [00:24<35:08, 15.11it/s]  1%|▏         | 449/32303 [00:24<33:20, 15.93it/s]  1%|▏         | 452/32303 [00:24<28:36, 18.56it/s]  1%|▏         | 455/32303 [00:24<26:17, 20.19it/s]  1%|▏         | 458/32303 [00:24<24:48, 21.39it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/lMVPPXWa6vA/00312/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/lMVPPXWa6vA/00312/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/i67zIpVEbUU/00292/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/i67zIpVEbUU/00292/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/z3oYNi5cHeE/00400/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/z3oYNi5cHeE/00400/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/z3oYNi5cHeE/00405/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/z3oYNi5cHeE/00405/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/nIjR_I8pHH8/00339/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/nIjR_I8pHH8/00339/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/mjFzFZ6kK8g/00317/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/mjFzFZ6kK8g/00317/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/Bxfr7oCrc0w/00060/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/Bxfr7oCrc0w/00060/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/Bxfr7oCrc0w/00041/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/Bxfr7oCrc0w/00041/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/Bxfr7oCrc0w/00047/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/Bxfr7oCrc0w/00047/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/Bxfr7oCrc0w/00058/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/Bxfr7oCrc0w/00058/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/Bxfr7oCrc0w/00065/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/Bxfr7oCrc0w/00065/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/DvpgD8dUt6I/00113/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/DvpgD8dUt6I/00113/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/DvpgD8dUt6I/00148/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/DvpgD8dUt6I/00148/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/DvpgD8dUt6I/00132/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/DvpgD8dUt6I/00132/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03201/DvpgD8dUt6I/00106/real_video_fake_audio.mp4, file: vox_celeb_2/id03201/DvpgD8dUt6I/00106/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02222/irL06cCOczs/00042/real_video_fake_audio.mp4, file: vox_celeb_2/id02222/irL06cCOczs/00042/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/5O6om-jNAS4/00092/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/5O6om-jNAS4/00092/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/5O6om-jNAS4/00078/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/5O6om-jNAS4/00078/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/s_SM_XhYhBo/00460/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/s_SM_XhYhBo/00460/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/s_SM_XhYhBo/00468/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/s_SM_XhYhBo/00468/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/WU0sxlK3tKg/00280/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/WU0sxlK3tKg/00280/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/1nVbJw7mzhc/00019/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/1nVbJw7mzhc/00019/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/W_aaJLVW9mI/00293/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/W_aaJLVW9mI/00293/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/9CNgM83aoaI/00126/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/9CNgM83aoaI/00126/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/9CNgM83aoaI/00120/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/9CNgM83aoaI/00120/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/8qg3SjJd9tQ/00109/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/8qg3SjJd9tQ/00109/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/8qg3SjJd9tQ/00105/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/8qg3SjJd9tQ/00105/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/Ez0r8rYFQRk/00186/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/Ez0r8rYFQRk/00186/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/bB5kdl9OUB4/00340/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/bB5kdl9OUB4/00340/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/bB5kdl9OUB4/00346/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/bB5kdl9OUB4/00346/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/3nH_ME-P_18/00045/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/3nH_ME-P_18/00045/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/Ab9l--tUvqI/00136/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/Ab9l--tUvqI/00136/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/Ab9l--tUvqI/00145/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/Ab9l--tUvqI/00145/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/8v7eXa2N2KQ/00118/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/8v7eXa2N2KQ/00118/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/B5EbdJXX4jc/00155/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/B5EbdJXX4jc/00155/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/WuzuZoM84Ws/00300/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/WuzuZoM84Ws/00300/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/3BzngL695ts/00030/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/3BzngL695ts/00030/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/mxZ2CN69xF0/00398/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/mxZ2CN69xF0/00398/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/DVCndOeNuHU/00167/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/DVCndOeNuHU/00167/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/encOCe5iR_s/00378/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/encOCe5iR_s/00378/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/encOCe5iR_s/00380/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/encOCe5iR_s/00380/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/Ma5pC9UGrP4/00214/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/Ma5pC9UGrP4/00214/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/p2R5mmxZ9QM/00420/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/p2R5mmxZ9QM/00420/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/ZnfQQJi-tGU/00316/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/ZnfQQJi-tGU/00316/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01225/wkyu37RRSIQ/00499/real_video_fake_audio.mp4, file: vox_celeb_2/id01225/wkyu37RRSIQ/00499/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07734/_wDbQgnx2Bo/00017/real_video_fake_audio.mp4, file: vox_celeb_2/id07734/_wDbQgnx2Bo/00017/real_video_fake_audio.mp4
+  1%|▏         | 461/32303 [00:24<29:35, 17.94it/s]  1%|▏         | 464/32303 [00:25<28:20, 18.72it/s]  1%|▏         | 467/32303 [00:25<32:02, 16.56it/s]  1%|▏         | 469/32303 [00:25<35:24, 14.98it/s]  1%|▏         | 471/32303 [00:25<36:07, 14.68it/s]  1%|▏         | 473/32303 [00:25<42:00, 12.63it/s]  1%|▏         | 475/32303 [00:25<40:03, 13.24it/s]  1%|▏         | 478/32303 [00:26<35:12, 15.06it/s]  1%|▏         | 482/32303 [00:26<26:53, 19.72it/s]  2%|▏         | 485/32303 [00:26<29:45, 17.82it/s]  2%|▏         | 487/32303 [00:26<35:16, 15.03it/s]  2%|▏         | 489/32303 [00:26<34:14, 15.49it/s]  2%|▏         | 491/32303 [00:26<33:08, 16.00it/s]  2%|▏         | 493/32303 [00:27<34:29, 15.37it/s]  2%|▏         | 495/32303 [00:27<43:56, 12.06it/s]  2%|▏         | 497/32303 [00:27<41:41, 12.71it/s]  2%|▏         | 500/32303 [00:27<34:37, 15.30it/s]  2%|▏         | 502/32303 [00:27<32:30, 16.30it/s]  2%|▏         | 504/32303 [00:27<35:03, 15.12it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08612/uQ1FMo0VWOY/00057/real_video_fake_audio.mp4, file: vox_celeb_2/id08612/uQ1FMo0VWOY/00057/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08612/uQ1FMo0VWOY/00061/real_video_fake_audio.mp4, file: vox_celeb_2/id08612/uQ1FMo0VWOY/00061/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08612/X1tuONxoh6A/00025/real_video_fake_audio.mp4, file: vox_celeb_2/id08612/X1tuONxoh6A/00025/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01500/3sPu7d5wONk/00004/real_video_fake_audio.mp4, file: vox_celeb_2/id01500/3sPu7d5wONk/00004/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01500/njeoeGW0Kfw/00110/real_video_fake_audio.mp4, file: vox_celeb_2/id01500/njeoeGW0Kfw/00110/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01500/Dc1k6r8K3t0/00050/real_video_fake_audio.mp4, file: vox_celeb_2/id01500/Dc1k6r8K3t0/00050/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01500/4Hyu5IrO6Mg/00007/real_video_fake_audio.mp4, file: vox_celeb_2/id01500/4Hyu5IrO6Mg/00007/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/xPylDi1tS5Y/00167/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/xPylDi1tS5Y/00167/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/xPylDi1tS5Y/00159/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/xPylDi1tS5Y/00159/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/GGX-AicVsR4/00046/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/GGX-AicVsR4/00046/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/0pum39_lsE0/00019/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/0pum39_lsE0/00019/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/ylv5LPoQL50/00185/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/ylv5LPoQL50/00185/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/ylv5LPoQL50/00178/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/ylv5LPoQL50/00178/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/ylv5LPoQL50/00190/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/ylv5LPoQL50/00190/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/EG01h8J2hjo/00026/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/EG01h8J2hjo/00026/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/siWXvZbDc7I/00106/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/siWXvZbDc7I/00106/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06111/wvycA2dTQSo/00141/real_video_fake_audio.mp4, file: vox_celeb_2/id06111/wvycA2dTQSo/00141/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/zoN8ynWZl2c/00193/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/zoN8ynWZl2c/00193/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/zoN8ynWZl2c/00197/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/zoN8ynWZl2c/00197/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/Kx0z7CbXbQw/00082/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/Kx0z7CbXbQw/00082/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/Kx0z7CbXbQw/00085/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/Kx0z7CbXbQw/00085/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/Ghvxpqp6OUw/00044/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/Ghvxpqp6OUw/00044/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/Ghvxpqp6OUw/00038/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/Ghvxpqp6OUw/00038/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/Ghvxpqp6OUw/00041/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/Ghvxpqp6OUw/00041/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03684/8YNenqTvZgE/00002/real_video_fake_audio.mp4, file: vox_celeb_2/id03684/8YNenqTvZgE/00002/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03746/u5-Cfteb_WI/00104/real_video_fake_audio.mp4, file: vox_celeb_2/id03746/u5-Cfteb_WI/00104/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03746/u5-Cfteb_WI/00101/real_video_fake_audio.mp4, file: vox_celeb_2/id03746/u5-Cfteb_WI/00101/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03746/LPj3-AbaTrM/00066/real_video_fake_audio.mp4, file: vox_celeb_2/id03746/LPj3-AbaTrM/00066/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03746/ohTzjNsxORc/00094/real_video_fake_audio.mp4, file: vox_celeb_2/id03746/ohTzjNsxORc/00094/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/b6qPjJ0isPI/00163/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/b6qPjJ0isPI/00163/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/9P190O0vkxw/00023/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/9P190O0vkxw/00023/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/t5ONHc7l4QM/00217/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/t5ONHc7l4QM/00217/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/1IAgr_CRnuE/00003/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/1IAgr_CRnuE/00003/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/NSPOdYdxsYI/00072/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/NSPOdYdxsYI/00072/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/_VySEWGPRgk/00151/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/_VySEWGPRgk/00151/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/PQJhywgTyvs/00121/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/PQJhywgTyvs/00121/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/N_524p1QzXQ/00092/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/N_524p1QzXQ/00092/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/N_524p1QzXQ/00088/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/N_524p1QzXQ/00088/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/MNZMZ6ChMZQ/00068/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/MNZMZ6ChMZQ/00068/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/xGyISZwFXUA/00219/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/xGyISZwFXUA/00219/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/eemPrRNIUek/00193/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/eemPrRNIUek/00193/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06310/eemPrRNIUek/00176/real_video_fake_audio.mp4, file: vox_celeb_2/id06310/eemPrRNIUek/00176/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04648/FJQZPhtU7Ho/00036/real_video_fake_audio.mp4, file: vox_celeb_2/id04648/FJQZPhtU7Ho/00036/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04648/J6BdQDp7YG4/00041/real_video_fake_audio.mp4, file: vox_celeb_2/id04648/J6BdQDp7YG4/00041/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04648/MkpguORYZhQ/00045/real_video_fake_audio.mp4, file: vox_celeb_2/id04648/MkpguORYZhQ/00045/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04648/crSY-vCT-H8/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id04648/crSY-vCT-H8/00054/real_video_fake_audio.mp4
+  2%|▏         | 507/32303 [00:27<30:55, 17.13it/s]  2%|▏         | 510/32303 [00:28<31:54, 16.61it/s]  2%|▏         | 513/32303 [00:28<29:25, 18.01it/s]  2%|▏         | 515/32303 [00:28<31:13, 16.97it/s]  2%|▏         | 518/32303 [00:28<27:04, 19.57it/s]  2%|▏         | 521/32303 [00:28<28:43, 18.44it/s]  2%|▏         | 525/32303 [00:28<23:08, 22.89it/s]  2%|▏         | 528/32303 [00:28<22:25, 23.61it/s]  2%|▏         | 531/32303 [00:29<22:32, 23.49it/s]  2%|▏         | 534/32303 [00:29<23:37, 22.41it/s]  2%|▏         | 538/32303 [00:29<20:25, 25.92it/s]  2%|▏         | 541/32303 [00:29<22:13, 23.82it/s]  2%|▏         | 544/32303 [00:29<21:00, 25.19it/s]  2%|▏         | 547/32303 [00:29<26:05, 20.28it/s]  2%|▏         | 550/32303 [00:30<30:04, 17.59it/s]  2%|▏         | 552/32303 [00:30<29:44, 17.79it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04422/PYQmVNfpDMs/00077/real_video_fake_audio.mp4, file: vox_celeb_2/id04422/PYQmVNfpDMs/00077/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04422/PYQmVNfpDMs/00064/real_video_fake_audio.mp4, file: vox_celeb_2/id04422/PYQmVNfpDMs/00064/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04422/kcfeeNxkU0A/00139/real_video_fake_audio.mp4, file: vox_celeb_2/id04422/kcfeeNxkU0A/00139/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04422/WBkqmggWUqg/00100/real_video_fake_audio.mp4, file: vox_celeb_2/id04422/WBkqmggWUqg/00100/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04422/9NYYWBzi8bU/00029/real_video_fake_audio.mp4, file: vox_celeb_2/id04422/9NYYWBzi8bU/00029/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04422/9NYYWBzi8bU/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id04422/9NYYWBzi8bU/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04422/Rq_uVO7lzgw/00081/real_video_fake_audio.mp4, file: vox_celeb_2/id04422/Rq_uVO7lzgw/00081/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04044/rC3AGkfQuLs/00021/real_video_fake_audio.mp4, file: vox_celeb_2/id04044/rC3AGkfQuLs/00021/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04044/TlTCtpw28Pg/00004/real_video_fake_audio.mp4, file: vox_celeb_2/id04044/TlTCtpw28Pg/00004/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04044/tr_WxTu7bWs/00038/real_video_fake_audio.mp4, file: vox_celeb_2/id04044/tr_WxTu7bWs/00038/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04728/29MpCaaaVhE/00016/real_video_fake_audio.mp4, file: vox_celeb_2/id04728/29MpCaaaVhE/00016/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04728/HuYfkp3nr2o/00068/real_video_fake_audio.mp4, file: vox_celeb_2/id04728/HuYfkp3nr2o/00068/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/CCexBMdG-9Q/00020/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/CCexBMdG-9Q/00020/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/tQWqrRAcv5g/00105/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/tQWqrRAcv5g/00105/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/lVnYcfL3I-c/00086/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/lVnYcfL3I-c/00086/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/x9MlZJDNkHA/00118/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/x9MlZJDNkHA/00118/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/x9MlZJDNkHA/00127/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/x9MlZJDNkHA/00127/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/_7ZbCnKJqxo/00046/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/_7ZbCnKJqxo/00046/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/lRFmtR6GTh0/00077/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/lRFmtR6GTh0/00077/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/lRFmtR6GTh0/00075/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/lRFmtR6GTh0/00075/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/lRFmtR6GTh0/00076/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/lRFmtR6GTh0/00076/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08651/MW_Jj4cEWNc/00028/real_video_fake_audio.mp4, file: vox_celeb_2/id08651/MW_Jj4cEWNc/00028/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05204/5Mi2bK6KT6E/00005/real_video_fake_audio.mp4, file: vox_celeb_2/id05204/5Mi2bK6KT6E/00005/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05204/r-j92UBdwBg/00066/real_video_fake_audio.mp4, file: vox_celeb_2/id05204/r-j92UBdwBg/00066/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05204/JKdjm5XLmJc/00014/real_video_fake_audio.mp4, file: vox_celeb_2/id05204/JKdjm5XLmJc/00014/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05204/q-VE0OvVdfI/00065/real_video_fake_audio.mp4, file: vox_celeb_2/id05204/q-VE0OvVdfI/00065/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05204/HwwC6PJbXOk/00013/real_video_fake_audio.mp4, file: vox_celeb_2/id05204/HwwC6PJbXOk/00013/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02577/9jOhwGp8WcE/00015/real_video_fake_audio.mp4, file: vox_celeb_2/id02577/9jOhwGp8WcE/00015/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02577/9jOhwGp8WcE/00020/real_video_fake_audio.mp4, file: vox_celeb_2/id02577/9jOhwGp8WcE/00020/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02577/q5YXwYf2LLY/00121/real_video_fake_audio.mp4, file: vox_celeb_2/id02577/q5YXwYf2LLY/00121/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02577/LgIR54ySi-4/00033/real_video_fake_audio.mp4, file: vox_celeb_2/id02577/LgIR54ySi-4/00033/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02577/nUbewcS__Ww/00109/real_video_fake_audio.mp4, file: vox_celeb_2/id02577/nUbewcS__Ww/00109/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02577/nUbewcS__Ww/00107/real_video_fake_audio.mp4, file: vox_celeb_2/id02577/nUbewcS__Ww/00107/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02577/3RJcRB3kd4w/00010/real_video_fake_audio.mp4, file: vox_celeb_2/id02577/3RJcRB3kd4w/00010/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06749/AP2hXyvr3UI/00023/real_video_fake_audio.mp4, file: vox_celeb_2/id06749/AP2hXyvr3UI/00023/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id06749/LgLZWnUTx-8/00040/real_video_fake_audio.mp4, file: vox_celeb_2/id06749/LgLZWnUTx-8/00040/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05284/f-xFZGScGHE/00077/real_video_fake_audio.mp4, file: vox_celeb_2/id05284/f-xFZGScGHE/00077/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05284/SvR6wn2Voow/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id05284/SvR6wn2Voow/00054/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05284/o6woyLT6Cs8/00101/real_video_fake_audio.mp4, file: vox_celeb_2/id05284/o6woyLT6Cs8/00101/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05284/o6woyLT6Cs8/00103/real_video_fake_audio.mp4, file: vox_celeb_2/id05284/o6woyLT6Cs8/00103/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05284/0ufp75PUUgY/00010/real_video_fake_audio.mp4, file: vox_celeb_2/id05284/0ufp75PUUgY/00010/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05284/jqi6-Y6hkLA/00084/real_video_fake_audio.mp4, file: vox_celeb_2/id05284/jqi6-Y6hkLA/00084/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05099/iIDJJ-e5kSc/00011/real_video_fake_audio.mp4, file: vox_celeb_2/id05099/iIDJJ-e5kSc/00011/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05099/iIDJJ-e5kSc/00012/real_video_fake_audio.mp4, file: vox_celeb_2/id05099/iIDJJ-e5kSc/00012/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05099/omzkGxvtAZY/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id05099/omzkGxvtAZY/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05099/DS0FaWR2esw/00005/real_video_fake_audio.mp4, file: vox_celeb_2/id05099/DS0FaWR2esw/00005/real_video_fake_audio.mp4
+  2%|▏         | 555/32303 [00:30<27:09, 19.48it/s]  2%|▏         | 558/32303 [00:30<26:30, 19.96it/s]  2%|▏         | 561/32303 [00:30<24:52, 21.27it/s]  2%|▏         | 564/32303 [00:30<25:17, 20.91it/s]  2%|▏         | 568/32303 [00:30<23:26, 22.57it/s]  2%|▏         | 574/32303 [00:30<19:32, 27.06it/s]  2%|▏         | 578/32303 [00:31<19:17, 27.41it/s]  2%|▏         | 583/32303 [00:31<16:47, 31.48it/s]  2%|▏         | 588/32303 [00:31<19:01, 27.79it/s]  2%|▏         | 591/32303 [00:31<21:44, 24.30it/s]  2%|▏         | 594/32303 [00:31<24:07, 21.91it/s]  2%|▏         | 597/32303 [00:31<25:33, 20.68it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05099/m9NEKjBEP5w/00017/real_video_fake_audio.mp4, file: vox_celeb_2/id05099/m9NEKjBEP5w/00017/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03213/z1xCzOmuP5M/00069/real_video_fake_audio.mp4, file: vox_celeb_2/id03213/z1xCzOmuP5M/00069/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03213/z1xCzOmuP5M/00072/real_video_fake_audio.mp4, file: vox_celeb_2/id03213/z1xCzOmuP5M/00072/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08165/ARJT4s0OBVM/00003/real_video_fake_audio.mp4, file: vox_celeb_2/id08165/ARJT4s0OBVM/00003/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08165/ARJT4s0OBVM/00027/real_video_fake_audio.mp4, file: vox_celeb_2/id08165/ARJT4s0OBVM/00027/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08165/ARJT4s0OBVM/00015/real_video_fake_audio.mp4, file: vox_celeb_2/id08165/ARJT4s0OBVM/00015/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08165/KPs5TAO8Hj4/00046/real_video_fake_audio.mp4, file: vox_celeb_2/id08165/KPs5TAO8Hj4/00046/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03384/s2rA7DIVPP0/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id03384/s2rA7DIVPP0/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03384/s2rA7DIVPP0/00028/real_video_fake_audio.mp4, file: vox_celeb_2/id03384/s2rA7DIVPP0/00028/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03384/zMbtLEvRsnQ/00053/real_video_fake_audio.mp4, file: vox_celeb_2/id03384/zMbtLEvRsnQ/00053/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03384/c_m9JVK2eqQ/00016/real_video_fake_audio.mp4, file: vox_celeb_2/id03384/c_m9JVK2eqQ/00016/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08678/rweu6dTbjtI/00045/real_video_fake_audio.mp4, file: vox_celeb_2/id08678/rweu6dTbjtI/00045/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08678/eJDEPVL0iLI/00033/real_video_fake_audio.mp4, file: vox_celeb_2/id08678/eJDEPVL0iLI/00033/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08678/fo5XTtL8ikM/00041/real_video_fake_audio.mp4, file: vox_celeb_2/id08678/fo5XTtL8ikM/00041/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01256/LXIGwXUmlAw/00016/real_video_fake_audio.mp4, file: vox_celeb_2/id01256/LXIGwXUmlAw/00016/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01256/mQcp0VykbpY/00071/real_video_fake_audio.mp4, file: vox_celeb_2/id01256/mQcp0VykbpY/00071/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01256/mQcp0VykbpY/00051/real_video_fake_audio.mp4, file: vox_celeb_2/id01256/mQcp0VykbpY/00051/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01256/mQcp0VykbpY/00055/real_video_fake_audio.mp4, file: vox_celeb_2/id01256/mQcp0VykbpY/00055/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01256/mQcp0VykbpY/00072/real_video_fake_audio.mp4, file: vox_celeb_2/id01256/mQcp0VykbpY/00072/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/LFOmZeKx5zo/00032/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/LFOmZeKx5zo/00032/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/AFqUEKjgHrY/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/AFqUEKjgHrY/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/lTk4pzqmvjY/00136/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/lTk4pzqmvjY/00136/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/lTk4pzqmvjY/00140/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/lTk4pzqmvjY/00140/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/dW0MYhznh5U/00106/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/dW0MYhznh5U/00106/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/QdbtL5ukOVo/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/QdbtL5ukOVo/00054/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/zcafhsVA374/00204/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/zcafhsVA374/00204/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/IBvGiyUNtS0/00029/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/IBvGiyUNtS0/00029/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/sDuvmuaRtaA/00174/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/sDuvmuaRtaA/00174/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/sDuvmuaRtaA/00177/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/sDuvmuaRtaA/00177/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/sDuvmuaRtaA/00186/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/sDuvmuaRtaA/00186/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/sDuvmuaRtaA/00168/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/sDuvmuaRtaA/00168/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/OUfsUcHsPZw/00047/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/OUfsUcHsPZw/00047/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02636/NZvUV0hoYiU/00040/real_video_fake_audio.mp4, file: vox_celeb_2/id02636/NZvUV0hoYiU/00040/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05640/KFsc7a86dac/00083/real_video_fake_audio.mp4, file: vox_celeb_2/id05640/KFsc7a86dac/00083/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05640/WB3o3ZFNyYE/00129/real_video_fake_audio.mp4, file: vox_celeb_2/id05640/WB3o3ZFNyYE/00129/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05640/WB3o3ZFNyYE/00130/real_video_fake_audio.mp4, file: vox_celeb_2/id05640/WB3o3ZFNyYE/00130/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05640/hQTOSjgmB9U/00170/real_video_fake_audio.mp4, file: vox_celeb_2/id05640/hQTOSjgmB9U/00170/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05640/hQTOSjgmB9U/00171/real_video_fake_audio.mp4, file: vox_celeb_2/id05640/hQTOSjgmB9U/00171/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05640/EC6_rsTH98A/00072/real_video_fake_audio.mp4, file: vox_celeb_2/id05640/EC6_rsTH98A/00072/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05640/Bk1JgtTh4gI/00048/real_video_fake_audio.mp4, file: vox_celeb_2/id05640/Bk1JgtTh4gI/00048/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04140/14WEy0lYePo/00009/real_video_fake_audio.mp4, file: vox_celeb_2/id04140/14WEy0lYePo/00009/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04140/fn4MkTDNowI/00049/real_video_fake_audio.mp4, file: vox_celeb_2/id04140/fn4MkTDNowI/00049/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04140/eglzQI3D_3E/00035/real_video_fake_audio.mp4, file: vox_celeb_2/id04140/eglzQI3D_3E/00035/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/7EPczK3DHMM/00019/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/7EPczK3DHMM/00019/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/2Lsarv6yp4A/00001/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/2Lsarv6yp4A/00001/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/Wed9RuTbLMM/00090/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/Wed9RuTbLMM/00090/real_video_fake_audio.mp4
+  2%|▏         | 600/32303 [00:32<31:23, 16.83it/s]  2%|▏         | 603/32303 [00:32<28:15, 18.70it/s]  2%|▏         | 606/32303 [00:32<29:03, 18.18it/s]  2%|▏         | 610/32303 [00:32<24:03, 21.95it/s]  2%|▏         | 613/32303 [00:32<27:48, 18.99it/s]  2%|▏         | 616/32303 [00:33<31:42, 16.65it/s]  2%|▏         | 620/32303 [00:33<27:58, 18.87it/s]  2%|▏         | 623/32303 [00:33<28:31, 18.51it/s]  2%|▏         | 625/32303 [00:33<29:14, 18.05it/s]  2%|▏         | 627/32303 [00:33<30:29, 17.32it/s]  2%|▏         | 629/32303 [00:33<31:09, 16.94it/s]  2%|▏         | 632/32303 [00:33<27:51, 18.95it/s]  2%|▏         | 636/32303 [00:34<22:33, 23.40it/s]  2%|▏         | 640/32303 [00:34<22:01, 23.96it/s]  2%|▏         | 643/32303 [00:34<26:55, 19.59it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/52Wfhu_Y4EU/00013/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/52Wfhu_Y4EU/00013/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/KCfyD20Te-Q/00087/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/KCfyD20Te-Q/00087/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/uT_6k-YkGco/00158/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/uT_6k-YkGco/00158/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/uT_6k-YkGco/00135/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/uT_6k-YkGco/00135/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03634/uT_6k-YkGco/00149/real_video_fake_audio.mp4, file: vox_celeb_2/id03634/uT_6k-YkGco/00149/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/O4vknlOAsxg/00132/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/O4vknlOAsxg/00132/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/O4vknlOAsxg/00117/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/O4vknlOAsxg/00117/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/VlxW1blvZ6c/00165/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/VlxW1blvZ6c/00165/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/tI41wdksZx0/00182/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/tI41wdksZx0/00182/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/1OVOMCxtWuA/00011/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/1OVOMCxtWuA/00011/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/6wc-Gp3wy-o/00030/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/6wc-Gp3wy-o/00030/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/6wc-Gp3wy-o/00034/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/6wc-Gp3wy-o/00034/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07212/cyr3S5XDVEM/00170/real_video_fake_audio.mp4, file: vox_celeb_2/id07212/cyr3S5XDVEM/00170/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/u1Viy5wuFYY/00408/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/u1Viy5wuFYY/00408/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/UyjEfsKrMk4/00283/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/UyjEfsKrMk4/00283/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/AyHTsfqd4FE/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/AyHTsfqd4FE/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/AyHTsfqd4FE/00061/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/AyHTsfqd4FE/00061/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/AyHTsfqd4FE/00064/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/AyHTsfqd4FE/00064/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/jRKea9YYRoE/00357/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/jRKea9YYRoE/00357/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/b6P7cfIn2NU/00307/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/b6P7cfIn2NU/00307/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/b6P7cfIn2NU/00306/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/b6P7cfIn2NU/00306/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/b6P7cfIn2NU/00297/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/b6P7cfIn2NU/00297/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/3ZOIDNl4lNs/00003/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/3ZOIDNl4lNs/00003/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/3ZOIDNl4lNs/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/3ZOIDNl4lNs/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/3ZOIDNl4lNs/00009/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/3ZOIDNl4lNs/00009/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/RDu6qPRgdyY/00247/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/RDu6qPRgdyY/00247/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/RDu6qPRgdyY/00197/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/RDu6qPRgdyY/00197/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/RDu6qPRgdyY/00249/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/RDu6qPRgdyY/00249/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/RDu6qPRgdyY/00213/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/RDu6qPRgdyY/00213/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/RDu6qPRgdyY/00184/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/RDu6qPRgdyY/00184/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/RDu6qPRgdyY/00226/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/RDu6qPRgdyY/00226/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/RDu6qPRgdyY/00155/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/RDu6qPRgdyY/00155/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/umHDfvRUhaw/00430/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/umHDfvRUhaw/00430/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/umHDfvRUhaw/00426/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/umHDfvRUhaw/00426/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01235/umHDfvRUhaw/00423/real_video_fake_audio.mp4, file: vox_celeb_2/id01235/umHDfvRUhaw/00423/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/LgDdkdxogpM/00081/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/LgDdkdxogpM/00081/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/FQflGM0Uuyo/00039/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/FQflGM0Uuyo/00039/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/FQflGM0Uuyo/00031/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/FQflGM0Uuyo/00031/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/FQflGM0Uuyo/00037/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/FQflGM0Uuyo/00037/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/BXv04-rnPKA/00008/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/BXv04-rnPKA/00008/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/BXv04-rnPKA/00016/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/BXv04-rnPKA/00016/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/vTIFQOq8BVA/00106/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/vTIFQOq8BVA/00106/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/rNNloEbzVC4/00100/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/rNNloEbzVC4/00100/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id08471/3KhXyJirPTc/00001/real_video_fake_audio.mp4, file: vox_celeb_2/id08471/3KhXyJirPTc/00001/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/9M5lTM_ouM0/00093/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/9M5lTM_ouM0/00093/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/nwhmYeMtqLA/00399/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/nwhmYeMtqLA/00399/real_video_fake_audio.mp4
+  2%|▏         | 646/32303 [00:34<25:24, 20.77it/s]  2%|▏         | 650/32303 [00:34<21:43, 24.28it/s]  2%|▏         | 654/32303 [00:34<20:25, 25.83it/s]  2%|▏         | 657/32303 [00:34<20:04, 26.28it/s]  2%|▏         | 660/32303 [00:35<21:13, 24.85it/s]  2%|▏         | 664/32303 [00:35<19:40, 26.81it/s]  2%|▏         | 667/32303 [00:35<21:38, 24.37it/s]  2%|▏         | 670/32303 [00:35<21:56, 24.03it/s]  2%|▏         | 673/32303 [00:35<20:43, 25.43it/s]  2%|▏         | 678/32303 [00:35<16:42, 31.54it/s]  2%|▏         | 682/32303 [00:35<16:50, 31.29it/s]  2%|▏         | 686/32303 [00:35<19:06, 27.58it/s]  2%|▏         | 689/32303 [00:36<20:17, 25.96it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/gkq1V1gxZxo/00366/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/gkq1V1gxZxo/00366/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/LO_xU_IIiR4/00139/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/LO_xU_IIiR4/00139/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/KLqsii21xk4/00128/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/KLqsii21xk4/00128/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/KLqsii21xk4/00127/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/KLqsii21xk4/00127/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/L_NHmIv5x60/00149/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/L_NHmIv5x60/00149/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/DrKV3ONUYWU/00098/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/DrKV3ONUYWU/00098/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/cPN_HGIVy6g/00237/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/cPN_HGIVy6g/00237/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/gZ7Xdyl5mAo/00307/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/gZ7Xdyl5mAo/00307/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/dnh5rtMD8Vw/00278/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/dnh5rtMD8Vw/00278/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/swtJkovAP_k/00438/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/swtJkovAP_k/00438/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/swtJkovAP_k/00435/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/swtJkovAP_k/00435/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/Y21_ABDfNPg/00180/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/Y21_ABDfNPg/00180/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04086/qSu_csdv0GE/00429/real_video_fake_audio.mp4, file: vox_celeb_2/id04086/qSu_csdv0GE/00429/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03764/lLg7kdY6mYI/00046/real_video_fake_audio.mp4, file: vox_celeb_2/id03764/lLg7kdY6mYI/00046/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03764/ULF05ie_bE4/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id03764/ULF05ie_bE4/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03764/uTD8zXucb0I/00051/real_video_fake_audio.mp4, file: vox_celeb_2/id03764/uTD8zXucb0I/00051/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02000/dyvstR9XplM/00065/real_video_fake_audio.mp4, file: vox_celeb_2/id02000/dyvstR9XplM/00065/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02000/qnyl35qaArs/00080/real_video_fake_audio.mp4, file: vox_celeb_2/id02000/qnyl35qaArs/00080/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02000/n5lpztD16XM/00079/real_video_fake_audio.mp4, file: vox_celeb_2/id02000/n5lpztD16XM/00079/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02000/gr20vr3MeWU/00067/real_video_fake_audio.mp4, file: vox_celeb_2/id02000/gr20vr3MeWU/00067/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02000/gr20vr3MeWU/00076/real_video_fake_audio.mp4, file: vox_celeb_2/id02000/gr20vr3MeWU/00076/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04897/UJYa3U9xVpI/00063/real_video_fake_audio.mp4, file: vox_celeb_2/id04897/UJYa3U9xVpI/00063/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04897/kIXr-xiXnbM/00111/real_video_fake_audio.mp4, file: vox_celeb_2/id04897/kIXr-xiXnbM/00111/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04897/bhUULrfZNIY/00095/real_video_fake_audio.mp4, file: vox_celeb_2/id04897/bhUULrfZNIY/00095/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04897/bVpjEaATVDA/00078/real_video_fake_audio.mp4, file: vox_celeb_2/id04897/bVpjEaATVDA/00078/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04897/FngEakg351w/00017/real_video_fake_audio.mp4, file: vox_celeb_2/id04897/FngEakg351w/00017/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04173/f4m8LINFvmc/00051/real_video_fake_audio.mp4, file: vox_celeb_2/id04173/f4m8LINFvmc/00051/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04717/7DiEgpK7dbk/00021/real_video_fake_audio.mp4, file: vox_celeb_2/id04717/7DiEgpK7dbk/00021/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04717/0ThdtNPVBxs/00004/real_video_fake_audio.mp4, file: vox_celeb_2/id04717/0ThdtNPVBxs/00004/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04717/Od2OOdEZieU/00038/real_video_fake_audio.mp4, file: vox_celeb_2/id04717/Od2OOdEZieU/00038/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07229/2iG8F-8zBr8/00009/real_video_fake_audio.mp4, file: vox_celeb_2/id07229/2iG8F-8zBr8/00009/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07229/Ai04V13SNlY/00014/real_video_fake_audio.mp4, file: vox_celeb_2/id07229/Ai04V13SNlY/00014/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id07229/dfGYVQRC3xA/00030/real_video_fake_audio.mp4, file: vox_celeb_2/id07229/dfGYVQRC3xA/00030/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01296/Se9PBW5411U/00054/real_video_fake_audio.mp4, file: vox_celeb_2/id01296/Se9PBW5411U/00054/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01296/p4LbEQOvNiE/00074/real_video_fake_audio.mp4, file: vox_celeb_2/id01296/p4LbEQOvNiE/00074/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01296/iMUtLRVoIDk/00057/real_video_fake_audio.mp4, file: vox_celeb_2/id01296/iMUtLRVoIDk/00057/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01296/jTmK_na57-w/00071/real_video_fake_audio.mp4, file: vox_celeb_2/id01296/jTmK_na57-w/00071/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01340/pXBtWp-OCoI/00138/real_video_fake_audio.mp4, file: vox_celeb_2/id01340/pXBtWp-OCoI/00138/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01340/gZXZiBpHmb0/00120/real_video_fake_audio.mp4, file: vox_celeb_2/id01340/gZXZiBpHmb0/00120/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01340/LYGRCCgWaXg/00019/real_video_fake_audio.mp4, file: vox_celeb_2/id01340/LYGRCCgWaXg/00019/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01340/LYGRCCgWaXg/00024/real_video_fake_audio.mp4, file: vox_celeb_2/id01340/LYGRCCgWaXg/00024/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01340/fYqbxzPhhwY/00109/real_video_fake_audio.mp4, file: vox_celeb_2/id01340/fYqbxzPhhwY/00109/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/_ldiVrXgZKc/00299/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/_ldiVrXgZKc/00299/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/_ldiVrXgZKc/00291/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/_ldiVrXgZKc/00291/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/_ldiVrXgZKc/00301/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/_ldiVrXgZKc/00301/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/TOx7VV4LJfg/00211/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/TOx7VV4LJfg/00211/real_video_fake_audio.mp4
+  2%|▏         | 693/32303 [00:36<19:42, 26.73it/s]  2%|▏         | 696/32303 [00:36<20:50, 25.28it/s]  2%|▏         | 699/32303 [00:36<21:21, 24.67it/s]  2%|▏         | 702/32303 [00:36<24:00, 21.93it/s]  2%|▏         | 705/32303 [00:36<28:24, 18.54it/s]  2%|▏         | 707/32303 [00:37<30:22, 17.34it/s]  2%|▏         | 709/32303 [00:37<30:28, 17.28it/s]  2%|▏         | 712/32303 [00:37<26:14, 20.07it/s]  2%|▏         | 715/32303 [00:37<25:07, 20.96it/s]  2%|▏         | 718/32303 [00:37<25:35, 20.57it/s]  2%|▏         | 721/32303 [00:37<24:19, 21.65it/s]  2%|▏         | 724/32303 [00:37<23:48, 22.11it/s]  2%|▏         | 727/32303 [00:37<24:31, 21.45it/s]  2%|▏         | 730/32303 [00:38<23:21, 22.53it/s]  2%|▏         | 735/32303 [00:38<22:23, 23.50it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/TOx7VV4LJfg/00221/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/TOx7VV4LJfg/00221/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/M0UD9g1x18c/00128/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/M0UD9g1x18c/00128/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/SwmQTyhzge8/00206/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/SwmQTyhzge8/00206/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/SwmQTyhzge8/00208/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/SwmQTyhzge8/00208/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/Do99Lzf6X-E/00108/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/Do99Lzf6X-E/00108/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/cymDCPEhalE/00351/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/cymDCPEhalE/00351/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/bs7ZWVqAGCU/00342/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/bs7ZWVqAGCU/00342/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/UED8wf7K1N4/00243/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/UED8wf7K1N4/00243/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/UED8wf7K1N4/00241/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/UED8wf7K1N4/00241/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/Tz1pFxm98mE/00233/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/Tz1pFxm98mE/00233/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/ZAwqKT7EHBg/00270/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/ZAwqKT7EHBg/00270/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/ZAwqKT7EHBg/00267/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/ZAwqKT7EHBg/00267/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/02HOKnTjBlQ/00003/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/02HOKnTjBlQ/00003/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/e4FoER8nqx0/00367/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/e4FoER8nqx0/00367/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id01333/QVpsqfA2Mu4/00171/real_video_fake_audio.mp4, file: vox_celeb_2/id01333/QVpsqfA2Mu4/00171/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04166/Y3_afWhIu7k/00067/real_video_fake_audio.mp4, file: vox_celeb_2/id04166/Y3_afWhIu7k/00067/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04166/tr-GzX57p2A/00090/real_video_fake_audio.mp4, file: vox_celeb_2/id04166/tr-GzX57p2A/00090/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04166/tr-GzX57p2A/00097/real_video_fake_audio.mp4, file: vox_celeb_2/id04166/tr-GzX57p2A/00097/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04166/1UminE1P6iE/00004/real_video_fake_audio.mp4, file: vox_celeb_2/id04166/1UminE1P6iE/00004/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04166/duYFNwEWbUA/00076/real_video_fake_audio.mp4, file: vox_celeb_2/id04166/duYFNwEWbUA/00076/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/6cTmdd8luQA/00043/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/6cTmdd8luQA/00043/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/zYQVFkGxiis/00368/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/zYQVFkGxiis/00368/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/4eor03PfQws/00036/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/4eor03PfQws/00036/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/yZ_Q-seqeYE/00354/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/yZ_Q-seqeYE/00354/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/hFA-5zzzR_E/00263/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/hFA-5zzzR_E/00263/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/Stjh3J2A3LY/00180/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/Stjh3J2A3LY/00180/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/iC2GztVse_o/00268/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/iC2GztVse_o/00268/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/TT9KIJRmClk/00200/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/TT9KIJRmClk/00200/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/1lnfc4Iofrg/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/1lnfc4Iofrg/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/EPBW4oHSjjE/00087/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/EPBW4oHSjjE/00087/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/D8b1zsZUgAQ/00075/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/D8b1zsZUgAQ/00075/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/OqfBQVNsPc8/00142/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/OqfBQVNsPc8/00142/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/jsc5uc9vJI0/00277/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/jsc5uc9vJI0/00277/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/18OBySpJAgM/00011/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/18OBySpJAgM/00011/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/18OBySpJAgM/00012/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/18OBySpJAgM/00012/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/I2_vThJFTzQ/00112/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/I2_vThJFTzQ/00112/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/3JpyyhWvZbo/00026/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/3JpyyhWvZbo/00026/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id02105/d5pGbKGQtrU/00222/real_video_fake_audio.mp4, file: vox_celeb_2/id02105/d5pGbKGQtrU/00222/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/3HEW3ZOsoAA/00034/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/3HEW3ZOsoAA/00034/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/vg5vZ92_GHQ/00485/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/vg5vZ92_GHQ/00485/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/AeWDsCyDLNw/00094/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/AeWDsCyDLNw/00094/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/AeWDsCyDLNw/00078/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/AeWDsCyDLNw/00078/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/tOaEJ7JsfeQ/00476/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/tOaEJ7JsfeQ/00476/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/g3SKd3BsV9I/00387/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/g3SKd3BsV9I/00387/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/g3SKd3BsV9I/00378/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/g3SKd3BsV9I/00378/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/UR8Wz0fCu8k/00268/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/UR8Wz0fCu8k/00268/real_video_fake_audio.mp4
+  2%|▏         | 738/32303 [00:38<24:10, 21.76it/s]  2%|▏         | 741/32303 [00:38<26:39, 19.73it/s]  2%|▏         | 744/32303 [00:38<26:19, 19.98it/s]  2%|▏         | 747/32303 [00:38<25:08, 20.92it/s]  2%|▏         | 750/32303 [00:39<23:45, 22.14it/s]  2%|▏         | 753/32303 [00:39<21:57, 23.94it/s]  2%|▏         | 756/32303 [00:39<22:53, 22.96it/s]  2%|▏         | 760/32303 [00:39<21:08, 24.87it/s]  2%|▏         | 763/32303 [00:39<23:55, 21.97it/s]  2%|▏         | 766/32303 [00:39<25:52, 20.31it/s]  2%|▏         | 769/32303 [00:39<25:04, 20.96it/s]  2%|▏         | 773/32303 [00:40<23:24, 22.44it/s]  2%|▏         | 776/32303 [00:40<24:08, 21.76it/s]  2%|▏         | 780/32303 [00:40<22:14, 23.62it/s]Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/VxX9z-rtpZM/00286/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/VxX9z-rtpZM/00286/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/VxX9z-rtpZM/00279/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/VxX9z-rtpZM/00279/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/TU_tyQWIFLM/00195/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/TU_tyQWIFLM/00195/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/CA1RXHMUjYQ/00124/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/CA1RXHMUjYQ/00124/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/jygpcTgLGC4/00416/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/jygpcTgLGC4/00416/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/nIn3A4gmg4I/00449/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/nIn3A4gmg4I/00449/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/OEt6R81bwtI/00171/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/OEt6R81bwtI/00171/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/UJ6JTRHUFL4/00247/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/UJ6JTRHUFL4/00247/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/UJ6JTRHUFL4/00248/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/UJ6JTRHUFL4/00248/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id05576/UJ6JTRHUFL4/00222/real_video_fake_audio.mp4, file: vox_celeb_2/id05576/UJ6JTRHUFL4/00222/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/Cm2UxdK94cg/00022/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/Cm2UxdK94cg/00022/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/Cm2UxdK94cg/00023/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/Cm2UxdK94cg/00023/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/uW_XRRQ7QJU/00424/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/uW_XRRQ7QJU/00424/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/8i0tpAqrDDY/00014/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/8i0tpAqrDDY/00014/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/8i0tpAqrDDY/00015/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/8i0tpAqrDDY/00015/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/zSmleiYaF-k/00481/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/zSmleiYaF-k/00481/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/LOV8ZPlGNF0/00110/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/LOV8ZPlGNF0/00110/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/hZMAizAWtes/00363/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/hZMAizAWtes/00363/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/PdxKn8R62RY/00203/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/PdxKn8R62RY/00203/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/fNinr202eqM/00356/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/fNinr202eqM/00356/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/fNinr202eqM/00354/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/fNinr202eqM/00354/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/fNinr202eqM/00358/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/fNinr202eqM/00358/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/Jtx3rH-p2qk/00090/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/Jtx3rH-p2qk/00090/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/Jtx3rH-p2qk/00103/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/Jtx3rH-p2qk/00103/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/Jtx3rH-p2qk/00097/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/Jtx3rH-p2qk/00097/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/RQ8lJzI-xWU/00224/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/RQ8lJzI-xWU/00224/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/McK8bPR8pzU/00178/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/McK8bPR8pzU/00178/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/McK8bPR8pzU/00172/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/McK8bPR8pzU/00172/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/McK8bPR8pzU/00153/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/McK8bPR8pzU/00153/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/Pqu_aXigJm4/00213/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/Pqu_aXigJm4/00213/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/zdahMCjZWb0/00490/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/zdahMCjZWb0/00490/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/WWc-Zz97hr0/00231/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/WWc-Zz97hr0/00231/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/x-c-4FlgUT0/00427/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/x-c-4FlgUT0/00427/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/dVcvd9-cYGE/00298/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/dVcvd9-cYGE/00298/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/daev6GxQz7I/00324/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/daev6GxQz7I/00324/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/NLLT-Jf6SGg/00181/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/NLLT-Jf6SGg/00181/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/NLLT-Jf6SGg/00182/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/NLLT-Jf6SGg/00182/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/NLLT-Jf6SGg/00184/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/NLLT-Jf6SGg/00184/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/u6dgOs_hfeo/00413/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/u6dgOs_hfeo/00413/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/xNB4jUE03wU/00438/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/xNB4jUE03wU/00438/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/AqGz-hZHpM8/00018/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/AqGz-hZHpM8/00018/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/DWjyaDIThxg/00044/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/DWjyaDIThxg/00044/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/DWjyaDIThxg/00042/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/DWjyaDIThxg/00042/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id04538/sxYZKmPGgio/00396/real_video_fake_audio.mp4, file: vox_celeb_2/id04538/sxYZKmPGgio/00396/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03192/1f2qxGV6jvE/00032/real_video_fake_audio.mp4, file: vox_celeb_2/id03192/1f2qxGV6jvE/00032/real_video_fake_audio.mp4
+Warning: Missing 'transcripts' for uttid: vox_celeb_2/id03192/4kQ0wNgg3EU/00064/real_video_fake_audio.mp4, file: vox_celeb_2/id03192/4kQ0wNgg3EU/00064/real_video_fake_audio.mp4
+  2%|▏         | 785/32303 [00:40<17:55, 29.31it/s]  2%|▏         | 789/32303 [00:40<24:08, 21.76it/s]  2%|▏         | 792/32303 [00:40<23:55, 21.96it/s]  2%|▏         | 795/32303 [00:41<23:37, 22.23it/s]  2%|▏         | 799/32303 [00:41<21:28, 24.45it/s]  2%|▏         | 802/32303 [00:41<20:40, 25.40it/s]  3%|▎         | 808/32303 [00:41<16:38, 31.53it/s]  3%|▎         | 812/32303 [00:41<24:19, 21.58it/s]  3%|▎         | 815/32303 [00:41<25:14, 20.79it/s]  3%|▎         | 818/32303 [00:42<37:39, 13.94it/s]  3%|▎         | 820/32303 [00:42<36:27, 14.39it/s]  3%|▎         | 822/32303 [00:42<37:27, 14.01it/s]  3%|▎         | 824/32303 [00:42<37:51, 13.86it/s]  3%|▎         | 826/32303 [00:42<40:59, 12.80it/s]  3%|▎         | 828/32303 [00:43<38:55, 13.48it/s]  3%|▎         | 830/32303 [00:43<39:40, 13.22it/s]  3%|▎         | 833/32303 [00:43<33:17, 15.75it/s]  3%|▎         | 836/32303 [00:43<30:03, 17.45it/s]  3%|▎         | 838/32303 [00:43<30:13, 17.35it/s]  3%|▎         | 840/32303 [00:43<29:58, 17.49it/s]  3%|▎         | 842/32303 [00:43<30:33, 17.16it/s]  3%|▎         | 845/32303 [00:43<27:25, 19.12it/s]slurmstepd-c03: error: *** JOB 1485133 ON c03 CANCELLED AT 2026-01-27T03:02:14 ***

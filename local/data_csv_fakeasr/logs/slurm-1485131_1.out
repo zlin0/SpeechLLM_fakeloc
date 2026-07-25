@@ -1,0 +1,13 @@
++ data=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data/
++ json_scp=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1m++/val_audioonly_realvideo/metadata.scp
++ save_dir=/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/av-deepfake1m++-audioonly_realvideo
++ python ./make_avdeepfake1m_det_localization.py --json_scp /export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1m++/val_audioonly_realvideo/metadata.scp --save_dir /export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/av-deepfake1m++-audioonly_realvideo
+  0%|          | 0/32303 [00:00<?, ?it/s]  0%|          | 0/32303 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./make_avdeepfake1m_det_localization.py", line 108, in <module>
+    main()
+  File "/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./make_avdeepfake1m_det_localization.py", line 104, in main
+    read_json_file(args.json_scp, args.save_dir)
+  File "/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./make_avdeepfake1m_det_localization.py", line 81, in read_json_file
+    'transcript': " ".join([w["word"] for w in av_info['transcripts']]),
+KeyError: 'transcripts'

@@ -1,0 +1,9 @@
++ data_dir=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data/
++ json_scp=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1mPP/train/metadata.scp
++ save_dir=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1mPP/train
++ '[' train == val ']'
++ json_scp=/export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1mPP_nosil/train_audioonly_realvideo/metadata.scp
++ save_dir=/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/avdeepfake1mPP_nosil-audioonly_realvideo
++ '[' '!' -d /export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/avdeepfake1mPP_nosil-audioonly_realvideo ']'
++ python ./local/data_csv_fakeasr/check_problematic_files_avdeepfake1M++.py --metadata_scp /export/fs05/lzhan268/workspace/wedefense/egs/localization/avdeepfake1m++/v15_ssl_mhfa/data//avdeepfake1mPP_nosil/train_audioonly_realvideo/metadata.scp --output /export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/avdeepfake1mPP_nosil-audioonly_realvideo/check_json.list --fix
+python: can't open file '/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./local/data_csv_fakeasr/check_problematic_files_avdeepfake1M++.py': [Errno 2] No such file or directory
