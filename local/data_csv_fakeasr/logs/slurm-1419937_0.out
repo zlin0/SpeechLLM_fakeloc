@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./make_avdeepfake1m_det_localization.py", line 3, in <module>
-    import pandas as pd
-ModuleNotFoundError: No module named 'pandas'

@@ -1,9 +1,0 @@
-  0%|          | 0/28819 [00:00<?, ?it/s]  0%|          | 0/28819 [00:00<?, ?it/s]
-Traceback (most recent call last):
-  File "/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./make_avdeepfake1m_det_localization.py", line 109, in <module>
-    main()
-  File "/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./make_avdeepfake1m_det_localization.py", line 105, in main
-    read_json_file(args.json_scp, args.save_dir)
-  File "/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/local/data_csv_fakeasr/./make_avdeepfake1m_det_localization.py", line 62, in read_json_file
-    with open(metadata, 'r') as json_file:
-FileNotFoundError: [Errno 2] No such file or directory: '/export/fs06/arts/dataset/AV-Deepfake1M/val/id08701/JhcZznZFsqg/00179/fake_video_fake_audio.json'

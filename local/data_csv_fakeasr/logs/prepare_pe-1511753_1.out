@@ -1,8 +1,0 @@
-+ data_dir=/export/fs05/lzhan268/workspace/wedefense/egs/localization/partialeditv2/v15_ssl_mhfa/data/partialeditv2/E1E2_vctk/
-+ wav_scp=/export/fs05/lzhan268/workspace/wedefense/egs/localization/partialeditv2/v15_ssl_mhfa/data/partialeditv2/E1E2_vctk//dev/wav.scp
-+ txt_scp=/export/fs05/lzhan268/workspace/wedefense/egs/localization/partialeditv2/v15_ssl_mhfa/data/partialeditv2/E1E2_vctk//dev/txt.scp
-+ metadata_file=/export/fs05/arts/dataset/PartialEdit_v2/PartialEdit_E1E2_v2.csv
-+ save_dir=/export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/partialeditv2/E1E2_vctk
-+ python ./make_partialedit_det_localization.py --wav_scp /export/fs05/lzhan268/workspace/wedefense/egs/localization/partialeditv2/v15_ssl_mhfa/data/partialeditv2/E1E2_vctk//dev/wav.scp --txt_scp /export/fs05/lzhan268/workspace/wedefense/egs/localization/partialeditv2/v15_ssl_mhfa/data/partialeditv2/E1E2_vctk//dev/txt.scp --metadata_file /export/fs05/arts/dataset/PartialEdit_v2/PartialEdit_E1E2_v2.csv --save_dir /export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/partialeditv2/E1E2_vctk/dev
-Warning: E1/p257/p257_024_edited has audio length 5.34 but fake periods [[3.34, 3.76], [4.7, 5.38]] may exceed audio length.
-partialedit dev saved to /export/fs05/lzhan268/workspace/03llm/SpeechLLM_fakeloc/data/partialeditv2/E1E2_vctk/dev! total length: (23515, 13)
