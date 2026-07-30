@@ -97,7 +97,7 @@ sympy @ file:///croot/sympy_1738108488918/work
 threadpoolctl @ file:///croot/threadpoolctl_1731006087558/work
 tiktoken==0.10.0
 tokenizers @ file:///croot/tokenizers_1741370336077/work
-torch==2.7.1+cu118
+torch==2.13.0
 torchao==0.12.0
 torchaudio==2.7.1+cu118
 torchdata==0.11.0
