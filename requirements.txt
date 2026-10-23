@@ -65,7 +65,7 @@ opentelemetry-api @ file:///croot/opentelemetry-api_1743171649300/work
 packaging @ file:///croot/packaging_1734472117206/work
 pandas @ file:///croot/pandas_1732735089971/work/dist/pandas-2.2.3-cp313-cp313-linux_x86_64.whl#sha256=248baa16b8f7b48e3a9c0e641fba9a72bce9c95c0dddf7c9a7547016b61fe3fb
 peft @ file:///home/conda/feedstock_root/build_artifacts/peft_1744841845357/work
-pillow==11.0.0
+pillow==13.0.0
 platformdirs @ file:///croot/platformdirs_1744273042065/work
 propcache @ file:///croot/propcache_1744012718189/work
 protobuf @ file:///croot/protobuf_1742419705443/work/bazel-bin/python/dist/protobuf-5.29.3-cp313-abi3-linux_x86_64.whl#sha256=e3cf18ebdc1833edadeb0b91088f8bff7c0957fbcc29f9faa4900cb1e2d91337
